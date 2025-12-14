@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://1xfhilem4i6o"
+path="res://.godot/imported/Battle Start 2.wav-1d6dcb59745feee0d8a240b4106875f7.sample"
+
+[deps]
+
+source_file="res://assets/sound/transition/Battle Start 2.wav"
+dest_files=["res://.godot/imported/Battle Start 2.wav-1d6dcb59745feee0d8a240b4106875f7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=1

@@ -1,0 +1,197 @@
+[gd_scene load_steps=9 format=3 uid="uid://c35qa3jb5xgql"]
+
+[ext_resource type="FontFile" uid="uid://bf67nax56lxt7" path="res://assets/font/Main Font.ttf" id="1"]
+[ext_resource type="FontFile" path="res://assets/font/Preparation Screen Item List Font.tres" id="2"]
+[ext_resource type="Script" uid="uid://c4pjcek5utlmj" path="res://Scenes/GUI/Unit Selectors/Unit Select.gd" id="3"]
+[ext_resource type="PackedScene" path="res://Scenes/GUI/Hand Cursor/Hand Selector.tscn" id="4"]
+
+[sub_resource type="FontFile" id="1"]
+fallbacks = Array[Font]([ExtResource("1"), ExtResource("1")])
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[sub_resource type="Animation" id="2"]
+resource_name = "Fade"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wjoms"]
+_data = {
+&"Fade": SubResource("2")
+}
+
+[sub_resource type="FontFile" id="3"]
+fallbacks = Array[Font]([ExtResource("1"), ExtResource("1")])
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[node name="Unit Select" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.122543
+offset_top = 0.0484085
+offset_right = 0.122543
+offset_bottom = 0.0484009
+mouse_filter = 2
+script = ExtResource("3")
+
+[node name="Background Color" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 43.0
+offset_right = 232.0
+offset_bottom = 160.0
+color = Color(0.172549, 0.164706, 0.196078, 1)
+
+[node name="Instructions" type="Label" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 43.0
+offset_right = 281.0
+offset_bottom = 68.0
+scale = Vector2(0.4, 0.4)
+theme_override_fonts/font = ExtResource("2")
+text = "Select Units"
+
+[node name="Number" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 43.0
+offset_right = 400.0
+offset_bottom = 69.0
+scale = Vector2(0.4, 0.4)
+theme_override_fonts/normal_font = ExtResource("2")
+bbcode_enabled = true
+scroll_active = false
+
+[node name="Unit List" type="ItemList" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 55.0
+offset_right = 232.0
+offset_bottom = 160.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("1")
+select_mode = 1
+max_columns = 2
+same_column_width = true
+fixed_column_width = 95
+fixed_icon_size = Vector2i(15, 15)
+
+[node name="Anim" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_wjoms")
+}
+
+[node name="Yes No" type="Control" parent="."]
+anchors_preset = 0
+offset_left = -300.0
+offset_top = -300.0
+offset_right = -177.0
+offset_bottom = -216.0
+
+[node name="Warning Message Background Color" type="ColorRect" parent="Yes No"]
+layout_mode = 0
+offset_left = 4.48779
+offset_top = 20.7561
+offset_right = 114.488
+offset_bottom = 77.7561
+color = Color(0.113725, 0.109804, 0.121569, 1)
+
+[node name="Warning Message" type="Label" parent="Yes No"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 21.0
+offset_right = 277.0
+offset_bottom = 97.0
+scale = Vector2(0.4, 0.4)
+theme_override_fonts/font = SubResource("3")
+text = "You have selected x units out of y. Proceed with this?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Yes" type="Label" parent="Yes No"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 46.0
+offset_right = 174.0
+offset_bottom = 125.0
+scale = Vector2(0.4, 0.4)
+theme_override_fonts/font = SubResource("3")
+text = "Yes"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="No" type="Label" parent="Yes No"]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 46.0
+offset_right = 219.0
+offset_bottom = 125.0
+scale = Vector2(0.4, 0.4)
+theme_override_fonts/font = SubResource("3")
+text = "No"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hand Selector" parent="Yes No" instance=ExtResource("4")]
+anchors_preset = 0
+offset_left = 58.259
+offset_top = 56.0
+offset_right = 74.259
+offset_bottom = 69.0
+
+[node name="Too Many Units" type="Control" parent="."]
+anchors_preset = 0
+offset_left = -300.0
+offset_top = -300.0
+offset_right = -177.0
+offset_bottom = -216.0
+
+[node name="Warning Message Background Color" type="ColorRect" parent="Too Many Units"]
+layout_mode = 0
+offset_left = 4.48779
+offset_top = 20.7561
+offset_right = 114.488
+offset_bottom = 77.7561
+color = Color(0.113725, 0.109804, 0.121569, 1)
+
+[node name="Warning Message" type="Label" parent="Too Many Units"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 21.0
+offset_right = 277.0
+offset_bottom = 162.0
+scale = Vector2(0.4, 0.4)
+theme_override_fonts/font = SubResource("3")
+text = "You have selected too many units. Please deselect a few in order to proceed."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="multi_selected" from="Unit List" to="." method="_on_Unit_List_multi_selected"]

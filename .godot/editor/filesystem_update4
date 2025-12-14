@@ -1,0 +1,8 @@
+res://default_bus_layout.tres
+res://default_env.tres
+res://Scenes/Chapter/Chapter Background.tscn
+res://assets/font/Messaging Font.tres
+res://assets/font/Action Selector Font.tres
+res://assets/Shaders/Burn Shader Effect.tres
+res://Engine/Systems/Event System Parser.gd
+res://Scenes/Weather Effects/Rain.tscn

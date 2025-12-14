@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8v28yst8gbl1"
+path="res://.godot/imported/Put Away Weapon.wav-c2090944325db43f77f5343c7f54bccd.sample"
+
+[deps]
+
+source_file="res://assets/sound/weapon sounds/Put Away Weapon.wav"
+dest_files=["res://.godot/imported/Put Away Weapon.wav-c2090944325db43f77f5343c7f54bccd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

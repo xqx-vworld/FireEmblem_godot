@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drikk70nachjw"
+path="res://.godot/imported/take your time.wav-ee15299e7abeaa01d4c6555f53fc8b7b.sample"
+
+[deps]
+
+source_file="res://assets/voice/take your time.wav"
+dest_files=["res://.godot/imported/take your time.wav-ee15299e7abeaa01d4c6555f53fc8b7b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

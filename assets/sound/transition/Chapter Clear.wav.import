@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0acb2quobgdy"
+path="res://.godot/imported/Chapter Clear.wav-33da9499c3b789d4f783ccaf802dce22.sample"
+
+[deps]
+
+source_file="res://assets/sound/transition/Chapter Clear.wav"
+dest_files=["res://.godot/imported/Chapter Clear.wav-33da9499c3b789d4f783ccaf802dce22.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=1

@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scenes/GUI/End Turn/End Turn.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/GUI/Action Selector/Actions/Top.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/GUI/End Turn/Status End Turn.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/GUI/End Turn/Unit End Turn.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scenes/GUI/End Turn/Suspend.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/GUI/End Turn/End End Turn.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/GUI/Hand Cursor/Hand Selector.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/GUI/Action Selector/Actions/Bottom.tscn" type="PackedScene" id=8]
+
+[node name="End Turn" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="End Turn" type="Control" parent="."]
+visible = false
+
+[node name="Top" parent="End Turn" instance=ExtResource( 2 )]
+offset_left = 20.3269
+offset_top = 30.7992
+offset_right = 490.327
+offset_bottom = 152.799
+
+[node name="Status End Turn" parent="End Turn" instance=ExtResource( 3 )]
+offset_left = 22.8625
+offset_top = 50.3498
+offset_right = 66.8625
+offset_bottom = 60.3498
+
+[node name="Unit End Turn" parent="End Turn" instance=ExtResource( 4 )]
+offset_left = 22.8969
+offset_top = 41.4124
+offset_right = 66.8969
+offset_bottom = 51.4124
+
+[node name="Suspend End Turn" parent="End Turn" instance=ExtResource( 5 )]
+offset_left = 22.6911
+offset_top = 59.3452
+offset_right = 66.6911
+offset_bottom = 69.3453
+
+[node name="End Turn" parent="End Turn" instance=ExtResource( 6 )]
+offset_left = 22.6266
+offset_top = 68.2377
+offset_right = 66.6266
+offset_bottom = 78.2377
+
+[node name="Hand Selector" parent="End Turn" instance=ExtResource( 7 )]
+offset_left = 15.0
+offset_top = 40.0
+offset_right = 31.0
+offset_bottom = 53.0
+
+[node name="Bottom" parent="End Turn" instance=ExtResource( 8 )]
+offset_left = 23.4684
+offset_top = 78.1999
+offset_right = 463.468
+offset_bottom = 117.2

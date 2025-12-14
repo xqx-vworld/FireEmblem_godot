@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dssl3okdgsx5l"
+path="res://.godot/imported/SHOOTER_1.wav-4269c9ae40b93089305a6860f620bfa7.sample"
+
+[deps]
+
+source_file="res://assets/sound/battle sounds/SHOOTER_1.wav"
+dest_files=["res://.godot/imported/SHOOTER_1.wav-4269c9ae40b93089305a6860f620bfa7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

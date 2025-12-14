@@ -1,0 +1,4279 @@
+[gd_scene load_steps=249 format=4]
+
+[ext_resource type="Texture2D" uid="uid://ckgv5rgh3jsk2" path="res://assets/levels/level3/level3.png" id="1_63sp1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mxpti"]
+texture = ExtResource("1_63sp1")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+11:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+11:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+5:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+9:10/0 = 0
+10:10/0 = 0
+11:10/0 = 0
+12:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+8:11/0 = 0
+9:11/0 = 0
+10:11/0 = 0
+11:11/0 = 0
+12:11/0 = 0
+13:11/0 = 0
+14:11/0 = 0
+0:12/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+8:12/0 = 0
+9:12/0 = 0
+10:12/0 = 0
+11:12/0 = 0
+12:12/0 = 0
+13:12/0 = 0
+14:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+7:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+10:13/0 = 0
+11:13/0 = 0
+12:13/0 = 0
+13:13/0 = 0
+14:13/0 = 0
+0:14/0 = 0
+1:14/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+7:14/0 = 0
+8:14/0 = 0
+9:14/0 = 0
+10:14/0 = 0
+11:14/0 = 0
+12:14/0 = 0
+13:14/0 = 0
+14:14/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_nhxd0"]
+sources/0 = SubResource("TileSetAtlasSource_mxpti")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_whtby"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fvqyc"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ubqs6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f77ws"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ywfn"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yj70h"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_42er4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g08e0"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lop7p"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u7pkk"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7pec1"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4tvu6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ga0gs"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q66ue"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ol1h2"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_18ejx"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vh5ky"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l0cdu"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k26h7"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6qiaa"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qe44g"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_06n7j"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pmhf3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k7jtt"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7bnob"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fgbdk"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4xofm"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cwbod"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_08oxy"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g86vk"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f20od"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x52g3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_viwtl"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b03su"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hp0er"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u3ejg"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gpdy5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o1p85"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ij1j4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mrq7w"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ant28"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n2hi5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_utk6b"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2i1yd"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k4lcp"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yqar5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ewqfx"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wuxfo"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dfjp7"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_haa3u"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j5if4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rcefm"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2478v"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eewve"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n5od4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_36vok"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a1jdp"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kcqts"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dhf2m"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_twlq4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r5e1n"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rkflx"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ibkgj"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jo2mw"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a1t8a"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fr2bu"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3r3tb"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bjliu"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6jp5n"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ao5ck"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4pw0n"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_js47x"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_64hbg"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ih56w"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0110g"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kesmk"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ru4s6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b23l4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b481r"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mvgof"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ulxps"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6nwwd"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gyvlx"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mlmkh"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_88wvb"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c1v1e"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1ilwp"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5buo0"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tthrp"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gvudv"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gnsi5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fcntd"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hlw3c"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r00qu"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2chhb"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oc6r5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hoc0p"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_peig3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2ensk"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p8uyh"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vhx3j"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yr7u5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fnfht"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pci4r"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e1mal"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s3ka3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mkwur"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ceudt"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8ei4l"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e8bvc"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j8yck"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qd3m5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ylpnf"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_redte"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_40xat"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s4v1h"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rjup8"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ftjp"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hkv0b"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0gqo7"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jkpqq"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_epra6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ovqm8"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ixnf6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cswnf"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_50cue"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1ymku"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bxl3d"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h725j"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hx5wv"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x2tjb"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j00h6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u6ey6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ywmi7"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_msa3v"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fiebw"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cqmk1"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kus6c"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ixyaq"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ngcv"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8bob2"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qrt80"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ll231"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t0rhy"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jp71g"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fpsvm"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_63xiq"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1mgh0"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b5raw"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dyw8k"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lcnqa"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ck18m"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5mmmc"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5t8fp"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xcn85"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vcuja"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tjhrp"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_otkem"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_noegr"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p6m2g"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yvgrj"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_feuet"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p7iyt"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a4cib"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mooqn"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gpd0j"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3fh1h"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ndys4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pgn5y"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hfqww"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pke1d"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vvk1g"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t0x5t"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_junkr"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vlps3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v6kos"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_va6cj"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pxnde"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8la1y"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5yrxk"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wmh4a"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qtdx1"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_thfxw"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v5o7u"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ari"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_50tfl"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0wymn"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tslpu"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r1ix4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_coph3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_io46n"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_by8j3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1wqa3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xhjyo"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ys6mf"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vynd2"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_micld"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nu5gm"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dqvr3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pmrg6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i3tym"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hiqwm"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ye1wn"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j4sfh"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5f4sr"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_txpp2"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4bxs4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3djl8"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ob6w4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b58bv"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xmbh6"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_biwr7"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_30daa"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yo5yb"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6iyj0"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ea6nj"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3y7j3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t4vq5"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q52ng"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n2jui"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k211u"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cvy5j"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5tv8t"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1qc2o"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3alp3"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x85fe"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_81ibc"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8lb4o"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f8ywo"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8kw7t"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qute4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l16r2"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qaci0"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_urhqo"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pkvy4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gqdua"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_24f1e"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mupfu"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_carg4"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jytbd"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s66yd"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hp6wq"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cqkvq"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v3705"]
+size = Vector2(16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pq8yq"]
+size = Vector2(16, 16)
+
+[node name="level3" type="Node2D"]
+metadata/Enemies_to_defeat = 15
+metadata/Victory_Condition = "Defeat All Enemies"
+
+[node name="Background" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAACAAAAAAACAAAAAAADAAAAAAADAAAAAAAEAAAAAAAEAAAAAAAFAAAAAAAFAAAAAAAGAAAAAAAGAAAAAAAHAAAAAAAHAAAAAAAIAAAAAAAIAAAAAAAJAAAAAAAJAAAAAAAKAAAAAAAKAAAAAAALAAAAAAALAAAAAAAMAAAAAAAMAAAAAAANAAAAAAANAAAAAAAOAAAAAAAOAAAAAAAAAAEAAAAAAAEAAAABAAEAAAABAAEAAAACAAEAAAACAAEAAAADAAEAAAADAAEAAAAEAAEAAAAEAAEAAAAFAAEAAAAFAAEAAAAGAAEAAAAGAAEAAAAHAAEAAAAHAAEAAAAIAAEAAAAIAAEAAAAJAAEAAAAJAAEAAAAKAAEAAAAKAAEAAAALAAEAAAALAAEAAAAMAAEAAAAMAAEAAAANAAEAAAANAAEAAAAOAAEAAAAOAAEAAAAAAAIAAAAAAAIAAAABAAIAAAABAAIAAAACAAIAAAACAAIAAAADAAIAAAADAAIAAAAEAAIAAAAEAAIAAAAFAAIAAAAFAAIAAAAGAAIAAAAGAAIAAAAHAAIAAAAHAAIAAAAIAAIAAAAIAAIAAAAJAAIAAAAJAAIAAAAKAAIAAAAKAAIAAAALAAIAAAALAAIAAAAMAAIAAAAMAAIAAAANAAIAAAANAAIAAAAOAAIAAAAOAAIAAAAAAAMAAAAAAAMAAAABAAMAAAABAAMAAAACAAMAAAACAAMAAAADAAMAAAADAAMAAAAEAAMAAAAEAAMAAAAFAAMAAAAFAAMAAAAGAAMAAAAGAAMAAAAHAAMAAAAHAAMAAAAIAAMAAAAIAAMAAAAJAAMAAAAJAAMAAAAKAAMAAAAKAAMAAAALAAMAAAALAAMAAAAMAAMAAAAMAAMAAAANAAMAAAANAAMAAAAOAAMAAAAOAAMAAAAAAAQAAAAAAAQAAAABAAQAAAABAAQAAAACAAQAAAACAAQAAAADAAQAAAADAAQAAAAEAAQAAAAEAAQAAAAFAAQAAAAFAAQAAAAGAAQAAAAGAAQAAAAHAAQAAAAHAAQAAAAIAAQAAAAIAAQAAAAJAAQAAAAJAAQAAAAKAAQAAAAKAAQAAAALAAQAAAALAAQAAAAMAAQAAAAMAAQAAAANAAQAAAANAAQAAAAOAAQAAAAOAAQAAAAAAAUAAAAAAAUAAAABAAUAAAABAAUAAAACAAUAAAACAAUAAAADAAUAAAADAAUAAAAEAAUAAAAEAAUAAAAFAAUAAAAFAAUAAAAGAAUAAAAGAAUAAAAHAAUAAAAHAAUAAAAIAAUAAAAIAAUAAAAJAAUAAAAJAAUAAAAKAAUAAAAKAAUAAAALAAUAAAALAAUAAAAMAAUAAAAMAAUAAAANAAUAAAANAAUAAAAOAAUAAAAOAAUAAAAAAAYAAAAAAAYAAAABAAYAAAABAAYAAAACAAYAAAACAAYAAAADAAYAAAADAAYAAAAEAAYAAAAEAAYAAAAFAAYAAAAFAAYAAAAGAAYAAAAGAAYAAAAHAAYAAAAHAAYAAAAIAAYAAAAIAAYAAAAJAAYAAAAJAAYAAAAKAAYAAAAKAAYAAAALAAYAAAALAAYAAAAMAAYAAAAMAAYAAAANAAYAAAANAAYAAAAOAAYAAAAOAAYAAAAAAAcAAAAAAAcAAAABAAcAAAABAAcAAAACAAcAAAACAAcAAAADAAcAAAADAAcAAAAEAAcAAAAEAAcAAAAFAAcAAAAFAAcAAAAGAAcAAAAGAAcAAAAHAAcAAAAHAAcAAAAIAAcAAAAIAAcAAAAJAAcAAAAJAAcAAAAKAAcAAAAKAAcAAAALAAcAAAALAAcAAAAMAAcAAAAMAAcAAAANAAcAAAANAAcAAAAOAAcAAAAOAAcAAAAAAAgAAAAAAAgAAAABAAgAAAABAAgAAAACAAgAAAACAAgAAAADAAgAAAADAAgAAAAEAAgAAAAEAAgAAAAFAAgAAAAFAAgAAAAGAAgAAAAGAAgAAAAHAAgAAAAHAAgAAAAIAAgAAAAIAAgAAAAJAAgAAAAJAAgAAAAKAAgAAAAKAAgAAAALAAgAAAALAAgAAAAMAAgAAAAMAAgAAAANAAgAAAANAAgAAAAOAAgAAAAOAAgAAAAAAAkAAAAAAAkAAAABAAkAAAABAAkAAAACAAkAAAACAAkAAAADAAkAAAADAAkAAAAEAAkAAAAEAAkAAAAFAAkAAAAFAAkAAAAGAAkAAAAGAAkAAAAHAAkAAAAHAAkAAAAIAAkAAAAIAAkAAAAJAAkAAAAJAAkAAAAKAAkAAAAKAAkAAAALAAkAAAALAAkAAAAMAAkAAAAMAAkAAAANAAkAAAANAAkAAAAOAAkAAAAOAAkAAAAAAAoAAAAAAAoAAAABAAoAAAABAAoAAAACAAoAAAACAAoAAAADAAoAAAADAAoAAAAEAAoAAAAEAAoAAAAFAAoAAAAFAAoAAAAGAAoAAAAGAAoAAAAHAAoAAAAHAAoAAAAIAAoAAAAIAAoAAAAJAAoAAAAJAAoAAAAKAAoAAAAKAAoAAAALAAoAAAALAAoAAAAMAAoAAAAMAAoAAAANAAoAAAANAAoAAAAOAAoAAAAOAAoAAAAAAAsAAAAAAAsAAAABAAsAAAABAAsAAAACAAsAAAACAAsAAAADAAsAAAADAAsAAAAEAAsAAAAEAAsAAAAFAAsAAAAFAAsAAAAGAAsAAAAGAAsAAAAHAAsAAAAHAAsAAAAIAAsAAAAIAAsAAAAJAAsAAAAJAAsAAAAKAAsAAAAKAAsAAAALAAsAAAALAAsAAAAMAAsAAAAMAAsAAAANAAsAAAANAAsAAAAOAAsAAAAOAAsAAAAAAAwAAAAAAAwAAAABAAwAAAABAAwAAAACAAwAAAACAAwAAAADAAwAAAADAAwAAAAEAAwAAAAEAAwAAAAFAAwAAAAFAAwAAAAGAAwAAAAGAAwAAAAHAAwAAAAHAAwAAAAIAAwAAAAIAAwAAAAJAAwAAAAJAAwAAAAKAAwAAAAKAAwAAAALAAwAAAALAAwAAAAMAAwAAAAMAAwAAAANAAwAAAANAAwAAAAOAAwAAAAOAAwAAAAAAA0AAAAAAA0AAAABAA0AAAABAA0AAAACAA0AAAACAA0AAAADAA0AAAADAA0AAAAEAA0AAAAEAA0AAAAFAA0AAAAFAA0AAAAGAA0AAAAGAA0AAAAHAA0AAAAHAA0AAAAIAA0AAAAIAA0AAAAJAA0AAAAJAA0AAAAKAA0AAAAKAA0AAAALAA0AAAALAA0AAAAMAA0AAAAMAA0AAAANAA0AAAANAA0AAAAOAA0AAAAOAA0AAAAAAA4AAAAAAA4AAAABAA4AAAABAA4AAAACAA4AAAACAA4AAAADAA4AAAADAA4AAAAEAA4AAAAEAA4AAAAFAA4AAAAFAA4AAAAGAA4AAAAGAA4AAAAHAA4AAAAHAA4AAAAIAA4AAAAIAA4AAAAJAA4AAAAJAA4AAAAKAA4AAAAKAA4AAAALAA4AAAALAA4AAAAMAA4AAAAMAA4AAAANAA4AAAANAA4AAAAOAA4AAAAOAA4AAAA=")
+tile_set = SubResource("TileSet_nhxd0")
+
+[node name="CellInfo" type="Node2D" parent="."]
+visible = false
+texture_filter = 1
+
+[node name="StaticBody" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_whtby")
+
+[node name="StaticBody2" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody2"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_fvqyc")
+
+[node name="StaticBody3" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody3"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ubqs6")
+
+[node name="StaticBody4" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody4"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_f77ws")
+
+[node name="StaticBody5" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody5"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_4ywfn")
+
+[node name="StaticBody6" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody6"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_yj70h")
+
+[node name="StaticBody7" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody7"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_42er4")
+
+[node name="StaticBody8" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody8"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_g08e0")
+
+[node name="StaticBody9" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody9"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_lop7p")
+
+[node name="StaticBody10" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody10"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_u7pkk")
+
+[node name="StaticBody11" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody11"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_7pec1")
+
+[node name="StaticBody12" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody12"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_4tvu6")
+
+[node name="StaticBody13" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody13"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ga0gs")
+
+[node name="StaticBody14" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody14"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_q66ue")
+
+[node name="StaticBody15" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody15"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ol1h2")
+
+[node name="StaticBody16" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody16"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_18ejx")
+
+[node name="StaticBody17" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody17"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_vh5ky")
+
+[node name="StaticBody18" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody18"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_l0cdu")
+
+[node name="StaticBody19" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody19"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_k26h7")
+
+[node name="StaticBody20" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody20"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_6qiaa")
+
+[node name="StaticBody21" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 144)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody21"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_qe44g")
+
+[node name="StaticBody22" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 144)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody22"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_06n7j")
+
+[node name="StaticBody23" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody23"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pmhf3")
+
+[node name="StaticBody24" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody24"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_k7jtt")
+
+[node name="StaticBody25" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 144)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody25"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_7bnob")
+
+[node name="StaticBody26" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody26"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_fgbdk")
+
+[node name="StaticBody27" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody27"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_4xofm")
+
+[node name="StaticBody28" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody28"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_cwbod")
+
+[node name="StaticBody29" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody29"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_08oxy")
+
+[node name="StaticBody30" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 128)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody30"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_g86vk")
+
+[node name="StaticBody31" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 128)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody31"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_f20od")
+
+[node name="StaticBody32" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 96)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody32"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_x52g3")
+
+[node name="StaticBody33" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 80)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody33"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_viwtl")
+
+[node name="StaticBody34" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 64)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody34"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_b03su")
+
+[node name="StaticBody35" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 80)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody35"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hp0er")
+
+[node name="StaticBody36" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 112)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody36"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_u3ejg")
+
+[node name="StaticBody37" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 144)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody37"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_gpdy5")
+
+[node name="StaticBody38" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 160)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody38"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_o1p85")
+
+[node name="StaticBody39" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 128)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody39"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ij1j4")
+
+[node name="StaticBody40" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 112)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody40"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_mrq7w")
+
+[node name="StaticBody41" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 64)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody41"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ant28")
+
+[node name="StaticBody42" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 64)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody42"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_n2hi5")
+
+[node name="StaticBody43" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 80)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody43"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_utk6b")
+
+[node name="StaticBody44" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 112)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody44"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_2i1yd")
+
+[node name="StaticBody45" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 112)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody45"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_k4lcp")
+
+[node name="StaticBody46" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 96)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody46"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_yqar5")
+
+[node name="StaticBody47" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 48)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody47"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ewqfx")
+
+[node name="StaticBody48" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 48)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody48"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_wuxfo")
+
+[node name="StaticBody49" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 32)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody49"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_dfjp7")
+
+[node name="StaticBody50" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 16)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody50"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_haa3u")
+
+[node name="StaticBody51" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 16)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody51"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_j5if4")
+
+[node name="StaticBody52" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 32)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody52"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_rcefm")
+
+[node name="StaticBody53" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 32)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody53"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_2478v")
+
+[node name="StaticBody54" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody54"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_eewve")
+
+[node name="StaticBody55" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody55"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_n5od4")
+
+[node name="StaticBody56" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody56"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_36vok")
+
+[node name="StaticBody57" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody57"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_a1jdp")
+
+[node name="StaticBody58" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody58"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_kcqts")
+
+[node name="StaticBody59" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody59"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_dhf2m")
+
+[node name="StaticBody60" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody60"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_twlq4")
+
+[node name="StaticBody61" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody61"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_r5e1n")
+
+[node name="StaticBody62" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 48)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody62"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_rkflx")
+
+[node name="StaticBody63" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 48)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody63"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ibkgj")
+
+[node name="StaticBody64" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 64)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody64"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_jo2mw")
+
+[node name="StaticBody65" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 64)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody65"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_a1t8a")
+
+[node name="StaticBody66" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 48)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody66"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_fr2bu")
+
+[node name="StaticBody67" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 80)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody67"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_3r3tb")
+
+[node name="StaticBody68" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 80)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody68"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_bjliu")
+
+[node name="StaticBody69" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 96)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody69"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_6jp5n")
+
+[node name="StaticBody70" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 96)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody70"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ao5ck")
+
+[node name="StaticBody71" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 96)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody71"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_4pw0n")
+
+[node name="StaticBody72" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 112)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody72"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_js47x")
+
+[node name="StaticBody73" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 112)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody73"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_64hbg")
+
+[node name="StaticBody74" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 112)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody74"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ih56w")
+
+[node name="StaticBody75" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 112)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody75"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_0110g")
+
+[node name="StaticBody76" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 128)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody76"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_kesmk")
+
+[node name="StaticBody77" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody77"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ru4s6")
+
+[node name="StaticBody78" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody78"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_b23l4")
+
+[node name="StaticBody79" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody79"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_b481r")
+
+[node name="StaticBody80" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody80"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_mvgof")
+
+[node name="StaticBody81" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody81"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ulxps")
+
+[node name="StaticBody82" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody82"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_6nwwd")
+
+[node name="StaticBody83" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody83"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_gyvlx")
+
+[node name="StaticBody84" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody84"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_mlmkh")
+
+[node name="StaticBody85" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody85"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_88wvb")
+
+[node name="StaticBody86" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody86"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_c1v1e")
+
+[node name="StaticBody87" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody87"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_1ilwp")
+
+[node name="StaticBody88" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody88"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_5buo0")
+
+[node name="StaticBody89" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 192)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Village Entrance"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody89"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_tthrp")
+
+[node name="StaticBody90" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 208)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody90"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_gvudv")
+
+[node name="StaticBody91" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 208)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody91"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_gnsi5")
+
+[node name="StaticBody92" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 208)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody92"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_fcntd")
+
+[node name="StaticBody93" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 208)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody93"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hlw3c")
+
+[node name="StaticBody94" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 128)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody94"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_r00qu")
+
+[node name="StaticBody95" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 128)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody95"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_2chhb")
+
+[node name="StaticBody96" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 144)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody96"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_oc6r5")
+
+[node name="StaticBody97" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 144)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody97"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hoc0p")
+
+[node name="StaticBody98" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 144)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody98"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_peig3")
+
+[node name="StaticBody99" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 144)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody99"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_2ensk")
+
+[node name="StaticBody100" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody100"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_p8uyh")
+
+[node name="StaticBody101" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody101"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_vhx3j")
+
+[node name="StaticBody102" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody102"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_yr7u5")
+
+[node name="StaticBody103" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody103"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_fnfht")
+
+[node name="StaticBody104" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody104"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pci4r")
+
+[node name="StaticBody105" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 160)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody105"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_e1mal")
+
+[node name="StaticBody106" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 160)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody106"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_s3ka3")
+
+[node name="StaticBody107" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 144)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody107"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_mkwur")
+
+[node name="StaticBody108" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody108"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ceudt")
+
+[node name="StaticBody109" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody109"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_8ei4l")
+
+[node name="StaticBody110" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 144)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody110"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_e8bvc")
+
+[node name="StaticBody111" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 144)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody111"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_j8yck")
+
+[node name="StaticBody112" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody112"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_qd3m5")
+
+[node name="StaticBody113" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody113"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ylpnf")
+
+[node name="StaticBody114" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 112)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody114"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_redte")
+
+[node name="StaticBody115" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody115"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_40xat")
+
+[node name="StaticBody116" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody116"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_s4v1h")
+
+[node name="StaticBody117" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 112)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody117"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_rjup8")
+
+[node name="StaticBody118" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 112)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody118"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_4ftjp")
+
+[node name="StaticBody119" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody119"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hkv0b")
+
+[node name="StaticBody120" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody120"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_0gqo7")
+
+[node name="StaticBody121" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody121"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_jkpqq")
+
+[node name="StaticBody122" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody122"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_epra6")
+
+[node name="StaticBody123" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody123"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ovqm8")
+
+[node name="StaticBody124" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 0)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody124"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ixnf6")
+
+[node name="StaticBody125" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 0)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody125"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_cswnf")
+
+[node name="StaticBody126" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 0)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody126"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_50cue")
+
+[node name="StaticBody127" type="StaticBody2D" parent="CellInfo"]
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody127"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_1ymku")
+
+[node name="StaticBody128" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 16)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody128"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_bxl3d")
+
+[node name="StaticBody129" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody129"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_h725j")
+
+[node name="StaticBody130" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody130"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hx5wv")
+
+[node name="StaticBody131" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody131"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_x2tjb")
+
+[node name="StaticBody132" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody132"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_j00h6")
+
+[node name="StaticBody133" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody133"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_u6ey6")
+
+[node name="StaticBody134" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody134"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ywmi7")
+
+[node name="StaticBody135" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody135"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_msa3v")
+
+[node name="StaticBody136" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 112)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody136"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_fiebw")
+
+[node name="StaticBody137" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody137"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_cqmk1")
+
+[node name="StaticBody138" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody138"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_kus6c")
+
+[node name="StaticBody139" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody139"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ixyaq")
+
+[node name="StaticBody140" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody140"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_7ngcv")
+
+[node name="StaticBody141" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody141"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_8bob2")
+
+[node name="StaticBody142" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody142"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_qrt80")
+
+[node name="StaticBody143" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody143"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ll231")
+
+[node name="StaticBody144" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 112)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody144"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_t0rhy")
+
+[node name="StaticBody145" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody145"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_jp71g")
+
+[node name="StaticBody146" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody146"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_fpsvm")
+
+[node name="StaticBody147" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 144)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody147"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_63xiq")
+
+[node name="StaticBody148" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 144)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody148"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_1mgh0")
+
+[node name="StaticBody149" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody149"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_b5raw")
+
+[node name="StaticBody150" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 128)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody150"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_dyw8k")
+
+[node name="StaticBody151" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 144)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody151"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_lcnqa")
+
+[node name="StaticBody152" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 176)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody152"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ck18m")
+
+[node name="StaticBody153" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 176)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody153"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_5mmmc")
+
+[node name="StaticBody154" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 176)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody154"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_5t8fp")
+
+[node name="StaticBody155" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 192)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody155"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_xcn85")
+
+[node name="StaticBody156" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 192)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody156"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_vcuja")
+
+[node name="StaticBody157" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 208)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody157"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_tjhrp")
+
+[node name="StaticBody158" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 208)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody158"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_otkem")
+
+[node name="StaticBody159" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 192)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody159"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_noegr")
+
+[node name="StaticBody160" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 112)
+metadata/Avd = 10
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Armory"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody160"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_p6m2g")
+
+[node name="StaticBody161" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody161"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_yvgrj")
+
+[node name="StaticBody162" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody162"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_feuet")
+
+[node name="StaticBody163" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody163"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_p7iyt")
+
+[node name="StaticBody164" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody164"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_a4cib")
+
+[node name="StaticBody165" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody165"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_mooqn")
+
+[node name="StaticBody166" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody166"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_gpd0j")
+
+[node name="StaticBody167" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody167"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_3fh1h")
+
+[node name="StaticBody168" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody168"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ndys4")
+
+[node name="StaticBody169" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody169"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pgn5y")
+
+[node name="StaticBody170" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody170"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hfqww")
+
+[node name="StaticBody171" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody171"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pke1d")
+
+[node name="StaticBody172" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody172"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_vvk1g")
+
+[node name="StaticBody173" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody173"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_t0x5t")
+
+[node name="StaticBody174" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody174"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_junkr")
+
+[node name="StaticBody175" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody175"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_vlps3")
+
+[node name="StaticBody176" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody176"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_v6kos")
+
+[node name="StaticBody177" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody177"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_va6cj")
+
+[node name="StaticBody178" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody178"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pxnde")
+
+[node name="StaticBody179" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody179"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_8la1y")
+
+[node name="StaticBody180" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody180"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_5yrxk")
+
+[node name="StaticBody181" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody181"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_wmh4a")
+
+[node name="StaticBody182" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody182"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_qtdx1")
+
+[node name="StaticBody183" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 32)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Village Entrance"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody183"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_thfxw")
+
+[node name="StaticBody184" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 32)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Village Entrance"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody184"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_v5o7u")
+
+[node name="StaticBody185" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody185"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_r7ari")
+
+[node name="StaticBody186" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Village"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody186"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_50tfl")
+
+[node name="StaticBody187" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 2
+metadata/TileType = "Fortress"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody187"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_0wymn")
+
+[node name="StaticBody188" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 80)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 2
+metadata/TileType = "Fortress"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody188"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_tslpu")
+
+[node name="StaticBody189" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 48)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody189"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_r1ix4")
+
+[node name="StaticBody190" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody190"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_coph3")
+
+[node name="StaticBody191" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody191"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_io46n")
+
+[node name="StaticBody192" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody192"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_by8j3")
+
+[node name="StaticBody193" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody193"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_1wqa3")
+
+[node name="StaticBody194" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody194"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_xhjyo")
+
+[node name="StaticBody195" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody195"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ys6mf")
+
+[node name="StaticBody196" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 48)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 3
+metadata/TileType = "Ruins"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody196"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_vynd2")
+
+[node name="StaticBody197" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(96, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody197"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_micld")
+
+[node name="StaticBody198" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(112, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody198"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_nu5gm")
+
+[node name="StaticBody199" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(128, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody199"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_dqvr3")
+
+[node name="StaticBody200" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(144, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody200"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pmrg6")
+
+[node name="StaticBody201" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(160, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody201"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_i3tym")
+
+[node name="StaticBody202" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(176, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody202"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hiqwm")
+
+[node name="StaticBody203" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(192, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody203"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ye1wn")
+
+[node name="StaticBody204" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(208, 224)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody204"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_j4sfh")
+
+[node name="StaticBody205" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 208)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody205"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_5f4sr")
+
+[node name="StaticBody206" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 192)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody206"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_txpp2")
+
+[node name="StaticBody207" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 176)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody207"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_4bxs4")
+
+[node name="StaticBody208" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 160)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody208"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_3djl8")
+
+[node name="StaticBody209" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 112)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody209"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ob6w4")
+
+[node name="StaticBody210" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 128)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody210"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_b58bv")
+
+[node name="StaticBody211" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 144)
+metadata/Avd = 20
+metadata/Def = 1
+metadata/MovementCost = 2
+metadata/TileType = "Forest"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody211"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_xmbh6")
+
+[node name="StaticBody212" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 0)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody212"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_biwr7")
+
+[node name="StaticBody213" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 16)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody213"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_30daa")
+
+[node name="StaticBody214" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 32)
+metadata/Avd = 20
+metadata/Def = 2
+metadata/MovementCost = 100
+metadata/TileType = "Mountain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody214"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_yo5yb")
+
+[node name="StaticBody215" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 48)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody215"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_6iyj0")
+
+[node name="StaticBody216" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 64)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody216"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_ea6nj")
+
+[node name="StaticBody217" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 80)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody217"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_3y7j3")
+
+[node name="StaticBody218" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 96)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody218"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_t4vq5")
+
+[node name="StaticBody219" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(224, 224)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody219"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_q52ng")
+
+[node name="StaticBody220" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(64, 224)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody220"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_n2jui")
+
+[node name="StaticBody221" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(80, 224)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Plain"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody221"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_k211u")
+
+[node name="StaticBody222" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(16, 224)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody222"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_cvy5j")
+
+[node name="StaticBody223" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(0, 224)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody223"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_5tv8t")
+
+[node name="StaticBody224" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(32, 224)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody224"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_1qc2o")
+
+[node name="StaticBody225" type="StaticBody2D" parent="CellInfo"]
+position = Vector2(48, 224)
+metadata/Avd = 0
+metadata/Def = 0
+metadata/MovementCost = 1
+metadata/TileType = "Road"
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="CellInfo/StaticBody225"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_3alp3")
+
+[node name="Allies" type="Node2D" parent="."]
+texture_filter = 1
+
+[node name="StaticBody" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 224)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Knight"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 14
+metadata/Defense = 9
+metadata/Health = 25
+metadata/Identifier = "Gilliam"
+metadata/InstanceName = "Ally Knight"
+metadata/Level = 4
+metadata/Luck = 3
+metadata/Magic = 0
+metadata/MaxHealth = 25
+metadata/Move = 4
+metadata/Name = "Gilliam"
+metadata/Res = 3
+metadata/Skill = 6
+metadata/Speed = 3
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Lance"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 55
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 0
+metadata/fortressPenalty = 0
+metadata/hillPenalty = 2
+metadata/isAlly = true
+metadata/luckChance = 30
+metadata/magicChance = 0
+metadata/maxHPChance = 90
+metadata/mountainPenalty = 0
+metadata/resChance = 20
+metadata/riverPenalty = 0
+metadata/seaPenalty = 0
+metadata/skillChance = 35
+metadata/speedChance = 30
+metadata/strChance = 45
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_x85fe")
+
+[node name="StaticBody2" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 224)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Pegasus Knight"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 5
+metadata/Defense = 5
+metadata/Health = 17
+metadata/Identifier = "Vanessa"
+metadata/InstanceName = "Ally Pegasus Knight"
+metadata/Level = 1
+metadata/Luck = 4
+metadata/Magic = 0
+metadata/MaxHealth = 17
+metadata/Move = 7
+metadata/Name = "Vanessa"
+metadata/Res = 9
+metadata/Skill = 7
+metadata/Speed = 12
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Lance"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 25
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 0
+metadata/fortressPenalty = 0
+metadata/hillPenalty = 0
+metadata/isAlly = true
+metadata/luckChance = 30
+metadata/magicChance = 0
+metadata/maxHPChance = 50
+metadata/mountainPenalty = 0
+metadata/resChance = 60
+metadata/riverPenalty = 0
+metadata/seaPenalty = 0
+metadata/skillChance = 55
+metadata/speedChance = 60
+metadata/strChance = 40
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody2"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_81ibc")
+
+[node name="StaticBody3" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 224)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Mage"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 5
+metadata/Defense = 1
+metadata/Health = 18
+metadata/Identifier = "Ewan"
+metadata/InstanceName = "Ally Mage"
+metadata/Level = 1
+metadata/Luck = 5
+metadata/Magic = 5
+metadata/MaxHealth = 18
+metadata/Move = 4
+metadata/Name = "Ewan"
+metadata/Res = 5
+metadata/Skill = 4
+metadata/Speed = 7
+metadata/Str = 0
+metadata/ThiefBonus = 0
+metadata/Weapon = "Fire Tome"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 15
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 0
+metadata/fortressPenalty = 0
+metadata/hillPenalty = 1
+metadata/isAlly = true
+metadata/luckChance = 50
+metadata/magicChance = 65
+metadata/maxHPChance = 50
+metadata/mountainPenalty = 0
+metadata/resChance = 40
+metadata/riverPenalty = 0
+metadata/seaPenalty = 0
+metadata/skillChance = 35
+metadata/speedChance = 50
+metadata/strChance = 0
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody3"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_8lb4o")
+
+[node name="StaticBody4" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 224)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Cleric"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 9
+metadata/Defense = 2
+metadata/Health = 20
+metadata/Identifier = "Natasha"
+metadata/InstanceName = "Natasha"
+metadata/Level = 1
+metadata/Luck = 1
+metadata/Magic = 4
+metadata/MaxHealth = 20
+metadata/Move = 5
+metadata/Name = "Natasha"
+metadata/Res = 5
+metadata/Skill = 6
+metadata/Speed = 9
+metadata/Str = 0
+metadata/ThiefBonus = 0
+metadata/Weapon = "Heal"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 40
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 0
+metadata/fortressPenalty = 0
+metadata/hillPenalty = 2
+metadata/isAlly = true
+metadata/luckChance = 70
+metadata/magicChance = 70
+metadata/maxHPChance = 60
+metadata/mountainPenalty = 0
+metadata/resChance = 75
+metadata/riverPenalty = 0
+metadata/seaPenalty = 0
+metadata/skillChance = 65
+metadata/speedChance = 50
+metadata/strChance = 0
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody4"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_f8ywo")
+
+[node name="StaticBody5" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 208)
+metadata/BonusCrit = 15
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Lord"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 5
+metadata/Defense = 3
+metadata/Health = 16
+metadata/Identifier = "Eirika"
+metadata/InstanceName = "Eirika"
+metadata/Level = 1
+metadata/Luck = 6
+metadata/Magic = 0
+metadata/MaxHealth = 16
+metadata/Move = 5
+metadata/Name = "Eirika"
+metadata/Res = 2
+metadata/Skill = 9
+metadata/Speed = 9
+metadata/Str = 4
+metadata/ThiefBonus = 0
+metadata/Weapon = "Rapier"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 60
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 1
+metadata/fortressPenalty = 0
+metadata/hillPenalty = 3
+metadata/isAlly = true
+metadata/luckChance = 70
+metadata/magicChance = 0
+metadata/maxHPChance = 70
+metadata/mountainPenalty = 0
+metadata/resChance = 40
+metadata/riverPenalty = 0
+metadata/seaPenalty = 0
+metadata/skillChance = 70
+metadata/speedChance = 50
+metadata/strChance = 70
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody5"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_8kw7t")
+
+[node name="StaticBody6" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 224)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Paladin"
+metadata/ClassBonusA = 20
+metadata/ClassBonusB = 60
+metadata/ClassPower = 3
+metadata/Consti = 11
+metadata/Defense = 11
+metadata/Health = 30
+metadata/Identifier = "Seth"
+metadata/InstanceName = "Seth"
+metadata/Level = 1
+metadata/Luck = 13
+metadata/Magic = 0
+metadata/MaxHealth = 30
+metadata/Move = 8
+metadata/Name = "Seth"
+metadata/Res = 8
+metadata/Skill = 13
+metadata/Speed = 12
+metadata/Str = 14
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 60
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 1
+metadata/fortressPenalty = 0
+metadata/hillPenalty = 4
+metadata/isAlly = true
+metadata/luckChance = 15
+metadata/magicChance = 0
+metadata/maxHPChance = 70
+metadata/mountainPenalty = 0
+metadata/resChance = 15
+metadata/riverPenalty = 5
+metadata/seaPenalty = 0
+metadata/skillChance = 20
+metadata/speedChance = 50
+metadata/strChance = 80
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody6"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_qute4")
+
+[node name="StaticBody7" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 224)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Archer"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 5
+metadata/Defense = 3
+metadata/Health = 18
+metadata/Identifier = "Neimi"
+metadata/InstanceName = "Ally Archer"
+metadata/Level = 1
+metadata/Luck = 4
+metadata/Magic = 0
+metadata/MaxHealth = 18
+metadata/Move = 5
+metadata/Name = "Neimi"
+metadata/Res = 2
+metadata/Skill = 5
+metadata/Speed = 6
+metadata/Str = 4
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Bow"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 15
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 1
+metadata/fortressPenalty = 1
+metadata/hillPenalty = 2
+metadata/isAlly = true
+metadata/luckChance = 50
+metadata/magicChance = 0
+metadata/maxHPChance = 55
+metadata/mountainPenalty = 0
+metadata/resChance = 35
+metadata/riverPenalty = 0
+metadata/seaPenalty = 0
+metadata/skillChance = 50
+metadata/speedChance = 65
+metadata/strChance = 55
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody7"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_l16r2")
+
+[node name="StaticBody8" type="StaticBody2D" parent="Allies"]
+position = Vector2(0, 224)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Thief"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 5
+metadata/Defense = 3
+metadata/Health = 18
+metadata/Identifier = "Colm"
+metadata/InstanceName = "Ally Thief"
+metadata/Level = 1
+metadata/Luck = 8
+metadata/Magic = 0
+metadata/MaxHealth = 18
+metadata/Move = 6
+metadata/Name = "Colm"
+metadata/Res = 1
+metadata/Skill = 4
+metadata/Speed = 10
+metadata/Str = 4
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Sword"
+metadata/buildingPenalty = 0
+metadata/constiChance = 0
+metadata/defChance = 20
+metadata/defaultPenalty = 0
+metadata/forestPenalty = 0
+metadata/fortressPenalty = 0
+metadata/hillPenalty = 0
+metadata/isAlly = true
+metadata/luckChance = 50
+metadata/magicChance = 0
+metadata/maxHPChance = 75
+metadata/mountainPenalty = 0
+metadata/resChance = 20
+metadata/riverPenalty = 0
+metadata/seaPenalty = 0
+metadata/skillChance = 40
+metadata/speedChance = 65
+metadata/strChance = 50
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Allies/StaticBody8"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_qaci0")
+
+[node name="Enemies" type="Node2D" parent="."]
+texture_filter = 1
+
+[node name="StaticBody" type="StaticBody2D" parent="Enemies"]
+position = Vector2(192, 48)
+metadata/After_Battle = "Marcus@assets/units/bandit/bandit mugshot.png@まさか。。。俺は倒された。。。"
+metadata/Before_Battle = "Marcus@assets/units/bandit/bandit mugshot.png@お前はもう死んでいる！"
+metadata/BonusCrit = 10
+metadata/BonusDodge = 5
+metadata/BonusHit = 5
+metadata/BossBonus = 40
+metadata/Class = "Bandit"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 2
+metadata/Health = 25
+metadata/Identifier = "Marcus"
+metadata/InstanceName = "Bandit"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 3
+metadata/MaxHealth = 25
+metadata/Move = 4
+metadata/Name = "Marcus"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 2
+metadata/Str = 6
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Passive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_urhqo")
+
+[node name="StaticBody2" type="StaticBody2D" parent="Enemies"]
+position = Vector2(160, 96)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Bandit"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 2
+metadata/Health = 21
+metadata/Identifier = "Enemy 8"
+metadata/InstanceName = "Bandit"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 3
+metadata/MaxHealth = 21
+metadata/Move = 5
+metadata/Name = "Barbarian"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 2
+metadata/Str = 6
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Aggresive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody2"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pkvy4")
+
+[node name="StaticBody3" type="StaticBody2D" parent="Enemies"]
+position = Vector2(80, 96)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Soldier"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 2
+metadata/Health = 18
+metadata/Identifier = "Enemy 4"
+metadata/InstanceName = "Enemy Soldier"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 3
+metadata/MaxHealth = 18
+metadata/Move = 5
+metadata/Name = "Soldier"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 2
+metadata/Str = 6
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Aggresive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody3"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_gqdua")
+
+[node name="StaticBody4" type="StaticBody2D" parent="Enemies"]
+position = Vector2(176, 96)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Bandit"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 1
+metadata/Health = 21
+metadata/Identifier = "Enemy 7"
+metadata/InstanceName = "Bandit"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 3
+metadata/MaxHealth = 21
+metadata/Move = 5
+metadata/Name = "Barbarian"
+metadata/Res = 2
+metadata/Skill = 3
+metadata/Speed = 3
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Passive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody4"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_24f1e")
+
+[node name="StaticBody5" type="StaticBody2D" parent="Enemies"]
+position = Vector2(160, 64)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Archer"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 7
+metadata/Defense = 4
+metadata/Health = 21
+metadata/Identifier = "Enemy 6"
+metadata/InstanceName = "Black Archer"
+metadata/Level = 3
+metadata/Luck = 1
+metadata/Magic = 0
+metadata/MaxHealth = 21
+metadata/Move = 5
+metadata/Name = "Soldier"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 3
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Bow"
+metadata/aiType = "Passive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody5"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_mupfu")
+
+[node name="StaticBody6" type="StaticBody2D" parent="Enemies"]
+position = Vector2(224, 64)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Archer"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 7
+metadata/Defense = 4
+metadata/Health = 21
+metadata/Identifier = "Enemy 9"
+metadata/InstanceName = "Black Archer"
+metadata/Level = 3
+metadata/Luck = 1
+metadata/Magic = 0
+metadata/MaxHealth = 21
+metadata/Move = 5
+metadata/Name = "Soldier"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 3
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Bow"
+metadata/aiType = "Passive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody6"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_carg4")
+
+[node name="StaticBody7" type="StaticBody2D" parent="Enemies"]
+position = Vector2(112, 64)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Archer"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 7
+metadata/Defense = 4
+metadata/Health = 18
+metadata/Identifier = "Enemy 5"
+metadata/InstanceName = "Black Archer"
+metadata/Level = 3
+metadata/Luck = 1
+metadata/Magic = 0
+metadata/MaxHealth = 18
+metadata/Move = 5
+metadata/Name = "Soldier"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 3
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Bow"
+metadata/aiType = "Aggresive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody7"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_jytbd")
+
+[node name="StaticBody8" type="StaticBody2D" parent="Enemies"]
+position = Vector2(112, 32)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Soldier"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 2
+metadata/Health = 21
+metadata/Identifier = "Enemy 3"
+metadata/InstanceName = "Enemy Soldier"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 3
+metadata/MaxHealth = 21
+metadata/Move = 5
+metadata/Name = "Soldier"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 2
+metadata/Str = 6
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Aggresive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody8"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_s66yd")
+
+[node name="StaticBody9" type="StaticBody2D" parent="Enemies"]
+position = Vector2(64, 32)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Bandit"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 1
+metadata/Health = 21
+metadata/Identifier = "Enemy 1"
+metadata/InstanceName = "Bandit"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 3
+metadata/MaxHealth = 21
+metadata/Move = 5
+metadata/Name = "Barbarian"
+metadata/Res = 2
+metadata/Skill = 3
+metadata/Speed = 3
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Aggresive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody9"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_hp6wq")
+
+[node name="StaticBody10" type="StaticBody2D" parent="Enemies"]
+position = Vector2(32, 16)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Archer"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 7
+metadata/Defense = 4
+metadata/Health = 19
+metadata/Identifier = "Enemy 2"
+metadata/InstanceName = "Black Archer"
+metadata/Level = 3
+metadata/Luck = 1
+metadata/Magic = 0
+metadata/MaxHealth = 19
+metadata/Move = 5
+metadata/Name = "Soldier"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 3
+metadata/Str = 5
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Bow"
+metadata/aiType = "Aggresive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody10"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_cqkvq")
+
+[node name="StaticBody11" type="StaticBody2D" parent="Enemies"]
+position = Vector2(32, 48)
+metadata/A_Tile_X = 0
+metadata/A_Tile_Y = 0
+metadata/B_Tile_X = 5
+metadata/B_Tile_Y = 3
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Dark Mage"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 2
+metadata/Health = 15
+metadata/Identifier = "Enemy 50"
+metadata/InstanceName = "Dark Mage Enemy"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 5
+metadata/MaxHealth = 15
+metadata/Move = 4
+metadata/Name = "Dark Mage"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 2
+metadata/Str = 0
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Patrol"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody11"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_v3705")
+
+[node name="StaticBody12" type="StaticBody2D" parent="Enemies"]
+position = Vector2(176, 128)
+metadata/BonusCrit = 0
+metadata/BonusDodge = 0
+metadata/BonusHit = 0
+metadata/BossBonus = 0
+metadata/Class = "Dark Mage"
+metadata/ClassBonusA = 0
+metadata/ClassBonusB = 0
+metadata/ClassPower = 3
+metadata/Consti = 8
+metadata/Defense = 2
+metadata/Health = 15
+metadata/Identifier = "Enemy 51"
+metadata/InstanceName = "Dark Mage Enemy"
+metadata/Level = 3
+metadata/Luck = 0
+metadata/Magic = 5
+metadata/MaxHealth = 15
+metadata/Move = 4
+metadata/Name = "Dark Mage"
+metadata/Res = 1
+metadata/Skill = 3
+metadata/Speed = 2
+metadata/Str = 0
+metadata/ThiefBonus = 0
+metadata/Weapon = "Iron Axe"
+metadata/aiType = "Aggresive"
+metadata/isAlly = false
+
+[node name="Rectangle Shape" type="CollisionShape2D" parent="Enemies/StaticBody12"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_pq8yq")
+
+[node name="Temp" type="Node2D" parent="."]
+texture_filter = 1

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c43u5wdxy1c7b"
+path="res://.godot/imported/Thank you JPN.wav-bfafba081b0c606484d13e46131a8a53.sample"
+
+[deps]
+
+source_file="res://assets/voice/Thank you JPN.wav"
+dest_files=["res://.godot/imported/Thank you JPN.wav-bfafba081b0c606484d13e46131a8a53.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

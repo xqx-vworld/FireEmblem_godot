@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dtatkd57yb3st"
+path="res://.godot/imported/The Long Road.ogg-3c356dfb49d9420105152bbbe49dee0c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/music/The Long Road.ogg"
+dest_files=["res://.godot/imported/The Long Road.ogg-3c356dfb49d9420105152bbbe49dee0c.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

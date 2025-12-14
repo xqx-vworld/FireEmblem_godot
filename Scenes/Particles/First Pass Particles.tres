@@ -1,0 +1,16 @@
+[gd_resource type="ParticleProcessMaterial" load_steps=3 format=3 uid="uid://5ohrq4v0n0ti"]
+
+[sub_resource type="Curve" id="2"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="3"]
+curve = SubResource("2")
+
+[resource]
+emission_shape = 1
+emission_sphere_radius = 92.07
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+scale_curve = SubResource("3")
+color = Color(0.815686, 0.815686, 0.588235, 0.6)

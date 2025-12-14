@@ -12,7 +12,7 @@ var tile_unit_updater
 
 # Cinematic Systems
 var message_system
-var main_game_camera
+var main_game_camera: MainCamera
 var turn_transition
 var event_system
 var movement_system_cinematic
@@ -159,7 +159,7 @@ func _ready():
 	# Extra sounds
 	extra_sound_effects = preload("res://Scenes/Audio/Extra Sound Effects.tscn").instantiate()
 	add_child(extra_sound_effects)
-	
+
 	# Map Updater
 	tile_unit_updater = preload("res://Engine/Systems/TileUnitUpdater.tscn").instantiate()
 	add_child(tile_unit_updater)
@@ -223,7 +223,7 @@ func clear():
 	turn_manager.player_turn_number = 1
 	turn_manager.enemy_turn_number = 1
 
-# Start the level
+
 func start_level():
 	if save_load_system.is_loading_level:
 		# Remove intro screen if it's still there
@@ -231,7 +231,7 @@ func start_level():
 			get_tree().get_root().get_node("Intro Screen").queue_free()
 		
 		# Set main camera
-		main_game_camera.current = true
+		main_game_camera.make_current()
 		
 		# Set Transition
 		turn_manager.move_camera_to_Eirika()

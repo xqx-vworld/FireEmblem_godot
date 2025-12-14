@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://bpyt3ts8v5oi8"]
 
-[ext_resource path="res://Scenes/Battlefield/BattlefieldInfo.gd" type="Script" id=1]
+[ext_resource type="Script" uid="uid://bqkuv87elh0eo" path="res://Scenes/Battlefield/BattlefieldInfo.gd" id="1"]
 
 [node name="GameSystem" type="Node"]
-script = ExtResource( 1 )
+script = ExtResource("1")
 
 [node name="Node2D" type="Node2D" parent="."]

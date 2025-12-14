@@ -1,8 +1,33 @@
-res://default_bus_layout.tres
 res://default_env.tres
-res://Scenes/Chapter/Chapter Background.tscn
+res://Engine/Systems/GameSystem.tscn
 res://assets/font/Messaging Font.tres
 res://assets/font/Action Selector Font.tres
 res://assets/Shaders/Burn Shader Effect.tres
-res://Engine/Systems/Event System Parser.gd
-res://Scenes/Weather Effects/Rain.tscn
+res://Scenes/Events/World Map Events/Level 3 WM Event Part 10.gd
+res://Scenes/Events/World Map Events/Level 4 WM Event Part 10.gd
+res://Scenes/Events/World Map Events/Level 2 WM Event Part 10.gd
+res://Scenes/Events/World Map Events/Level 1 WM Event Part 10.gd
+res://Scenes/GUI/Attack Arc/AI Attack Arc.gd
+res://Scenes/Chapter/Chapter Background.gd
+res://Scenes/Battlefield/BattlefieldInfo.gd
+res://Scenes/Intro Screen/Intro Screen.tscn
+res://Scenes/Particles/First Pass Particles.tres
+res://Scenes/World Map/World Map Screen.tscn
+res://Scenes/Intro Screen/Intro Screen.gd
+res://Scenes/World Map/World Map Screen.gd
+res://Scenes/Camera/GameCamera.tscn
+res://Scenes/Camera/MainCamera.gd
+res://Engine/Tests/New Event System.gd
+res://Scenes/Events/Level 1/L1 Event Part 20.gd
+res://Scenes/Events/Level 1/L1 Event Part 10.gd
+res://Scenes/Events/Level 2/L2 Event Part 50.gd
+res://Scenes/Events/Level 2/L2 Event Part 40.gd
+res://Scenes/Events/Level 2/L2 Event Part 20.gd
+res://Scenes/Audio/MusicPlayer.tscn
+res://Scenes/Events/Level 2/L2 Event Part 10.gd
+res://Scenes/Audio/MusicPlayer.gd
+res://Scenes/Events/Level 2/L2 Event Mid 20.gd
+res://Scenes/Events/Level 2/L2 Event Mid 10.gd
+res://Scenes/Events/Level 3/L3 Event Part 30.gd
+res://Scenes/Events/Level 3/L3 Event Part 20.gd
+res://Scenes/Camera/MovementCamera.tscn

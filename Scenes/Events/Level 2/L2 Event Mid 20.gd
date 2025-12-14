@@ -52,16 +52,17 @@ func start_mid(turn_number):
 	# Signals needed
 	BattlefieldInfo.movement_system_cinematic.connect("unit_finished_moving_cinema", Callable(self, "start_dialogue"))
 	BattlefieldInfo.message_system.connect("no_more_text", Callable(self, "spawn_enemies"))
-	BattlefieldInfo.main_game_camera.get_node("Tween").connect("tween_all_completed", Callable(self, "move_actor"))
+	BattlefieldInfo.main_game_camera.MainCameraTween.connect("finished", Callable(self, "move_actor"))
 	
 	spawn_messenger()
 	move_camera()
 
 func move_camera():
 	var new_position_for_camera = Vector2(0,190)
-	BattlefieldInfo.main_game_camera.get_node("Tween").interpolate_property(BattlefieldInfo.main_game_camera, "position", BattlefieldInfo.main_game_camera.position, new_position_for_camera, 1, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
-	BattlefieldInfo.main_game_camera.current = true
-	BattlefieldInfo.main_game_camera.get_node("Tween").start()
+	BattlefieldInfo.main_game_camera.MainCameraTween.set_loops(Tween.TRANS_LINEAR)
+	BattlefieldInfo.main_game_camera.MainCameraTween.set_ease(Tween.EASE_IN_OUT)
+	BattlefieldInfo.main_game_camera.make_current()
+	BattlefieldInfo.main_game_camera.MainCameraTween.tween_property(BattlefieldInfo.main_game_camera, "position", new_position_for_camera, 1)
 
 func move_actor():
 	# Build path to Vezarius Original Location

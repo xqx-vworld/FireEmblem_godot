@@ -55,5 +55,5 @@ func after_text():
 	SceneTransition.change_scene_to_file("res://Scenes/Chapter/Chapter Background.tscn", 0.1)
 	WorldMapScreen.exit()
 	await SceneTransition.scene_changed
-	SceneTransition.get_tree().current_scene.start(Callable("2", "Fort Merceus").bind(level3), 2)
+	SceneTransition.get_tree().current_scene.start("2", "Fort Merceus",level3, 2)
 	queue_free()

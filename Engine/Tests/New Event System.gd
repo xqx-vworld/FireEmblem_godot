@@ -22,7 +22,7 @@ func _ready():
 	self.connect("event_done", Callable(self, "parse_event"))
 	
 	# Connect to the camera to know when the tween is done
-	BattlefieldInfo.main_game_camera.get_node("Tween").connect("tween_all_completed", Callable(self, "event_done"))
+	BattlefieldInfo.main_game_camera.MainCameraTween.connect("tween_all_completed", Callable(self, "event_done"))
 
 func start(all_events_array):
 	for event in all_events_array:
@@ -46,9 +46,11 @@ func parse_event(event):
 
 # Move the camera
 func move_camera(starting_position, ending_position, time_to_move):
-	BattlefieldInfo.main_game_camera.get_node("Tween").interpolate_property(BattlefieldInfo.main_game_camera, "position", starting_position, ending_position, time_to_move, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
-	BattlefieldInfo.main_game_camera.current = true
-	BattlefieldInfo.main_game_camera.get_node("Tween").start()
+	BattlefieldInfo.main_game_camera.MainCameraTween.set_loops(Tween.TRANS_LINEAR)
+	BattlefieldInfo.main_game_camera.MainCameraTween.set_ease(Tween.EASE_IN_OUT)
+	#BattlefieldInfo.main_game_camera.get_node("Tween").interpolate_property(BattlefieldInfo.main_game_camera, "position", starting_position, ending_position, time_to_move, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
+	BattlefieldInfo.main_game_camera.make_current()
+	BattlefieldInfo.main_game_camera.MainCameraTween.tween_property(BattlefieldInfo.main_game_camera, "position", ending_position, time_to_move)
 
 # Move units
 func move_units(array_of_units_to_move):

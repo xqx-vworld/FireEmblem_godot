@@ -54,5 +54,5 @@ func after_text():
 	SceneTransition.change_scene_to_file("res://Scenes/Chapter/Chapter Background.tscn", 0.1)
 	WorldMapScreen.exit()
 	await SceneTransition.scene_changed
-	SceneTransition.get_tree().current_scene.start(Callable("5", "The Great Fortress Line").bind(level4), 2)
+	SceneTransition.get_tree().current_scene.start("5", "The Great Fortress Line",level4, 2)
 	queue_free()

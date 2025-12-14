@@ -11,16 +11,16 @@ func _draw() -> void:
 
 func update_starting_value(new_starting_location: Vector2) -> void:
 	starting_vector = new_starting_location
-	update()
+	queue_redraw()
 
 func update_ending_value(new_ending_location: Vector2) -> void:
 	ending_vector = new_ending_location
-	update()
+	queue_redraw()
 
 func update_line_color(new_line_color: Color) -> void:
 	line_color = new_line_color
-	update()
+	queue_redraw()
 
 func update_line_width(new_line_width: int) -> void:
 	line_width = new_line_width
-	update()
+	queue_redraw()

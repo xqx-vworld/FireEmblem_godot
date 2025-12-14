@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://07ifnnxr8j77" path="res://Scenes/Battlefield/Level.gd" id="1"]
 [ext_resource type="PackedScene" path="res://Scenes/GUI/Cursor/Cursor.tscn" id="2"]
-[ext_resource type="PackedScene" path="res://Scenes/Camera/GameCamera.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://ddiiil7syon0o" path="res://Scenes/Camera/GameCamera.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://Scenes/Transition/Turn Transition.tscn" id="4"]
 [ext_resource type="PackedScene" path="res://Scenes/GUI/Overhead/GUI Areas.tscn" id="5"]
 [ext_resource type="PackedScene" uid="uid://dessxfvf33yul" path="res://Scenes/Combat/Combat Screen.tscn" id="6"]
@@ -16,7 +16,7 @@
 [ext_resource type="PackedScene" path="res://Scenes/Messaging/Message System.tscn" id="14"]
 [ext_resource type="PackedScene" path="res://Scenes/GUI/Item Screen/Item Screen.tscn" id="15"]
 [ext_resource type="PackedScene" path="res://Scenes/GUI/Trade/Trade Screen.tscn" id="16"]
-[ext_resource type="PackedScene" path="res://Scenes/GUI/Unit Info/Unit Info Screen.tscn" id="17"]
+[ext_resource type="PackedScene" uid="uid://dp7j5q8lwk8sd" path="res://Scenes/GUI/Unit Info/Unit Info Screen.tscn" id="17"]
 [ext_resource type="PackedScene" path="res://Scenes/Preparation Screen/Preparation Screen.tscn" id="18"]
 [ext_resource type="PackedScene" path="res://Engine/Systems/Event System.tscn" id="19"]
 
@@ -52,7 +52,6 @@ position = Vector2(144, 64)
 position = Vector2(0, 80)
 limit_right = 240
 limit_bottom = 240
-script = null
 
 [node name="Turn Transition" parent="GameCamera" instance=ExtResource("4")]
 

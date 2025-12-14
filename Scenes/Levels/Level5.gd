@@ -20,8 +20,8 @@ func _ready():
 	BattlefieldInfo.music_player.get_node("AllyLevel").volume_db = 0
 	
 	# Set Map height
-	map_height = self.get_meta("height")
-	map_width = self.get_meta("width")
+	map_height = self.get_meta("height", 232)
+	map_width = self.get_meta("width", 232)
 	
 	# Set Map victory condition
 	BattlefieldInfo.victory_text = self.get_meta("Victory_Condition")

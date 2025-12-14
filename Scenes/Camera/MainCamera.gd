@@ -20,13 +20,12 @@ var _previous_x = 0.0
 var _previous_y = 0.0
 var _last_offset = Vector2(0, 0)
 var MainCameraTween = create_tween()
-
 signal camera_moved
 
 func _ready():
+	MainCameraTween.stop()
 	# Access the main camera from anywhere
 	BattlefieldInfo.main_game_camera = self
-	print('main_game_camera', BattlefieldInfo.main_game_camera)
 	# Check if connected -> No idea why my two levels are bugged and the rest are okay.
 	BattlefieldInfo.cursor.connect("cursorMoved", Callable(self, "_on_Cursor_cursorMoved"))
 	

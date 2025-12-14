@@ -1,8 +1,6 @@
-[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://r70y3bbv8y3u"]
 
-[ext_resource path="res://assets/Textures/Rain Noise.png" type="Texture2D" id=1]
-
-[sub_resource type="Shader" id=1]
+[sub_resource type="Shader" id="1"]
 code = "shader_type canvas_item;
 
 uniform sampler2D noise;
@@ -26,6 +24,4 @@ void fragment(){
 }"
 
 [resource]
-shader = SubResource( 1 )
-shader_param/intensity = 0.023
-shader_param/noise = ExtResource( 1 )
+shader = SubResource("1")

@@ -20,8 +20,8 @@ func _ready():
 	BattlefieldInfo.music_player.get_node("AllyLevel").volume_db = 0
 	
 	# Set Map height
-	map_height = self.get_meta("height")
-	map_width = self.get_meta("width")
+	map_height = self.get_meta("height", 15)
+	map_width = self.get_meta("width", 15)
 	
 	# Set Map victory condition
 	BattlefieldInfo.victory_text = self.get_meta("Victory_Condition")
@@ -76,6 +76,7 @@ func _ready():
 	
 	for allyCellInfo in allyInfoLayer.get_children():
 		var path = str("res://Scenes/Units/Player_Units/AllyUnits/", allyCellInfo.get_meta("InstanceName"),"/",allyCellInfo.get_meta("InstanceName"),".tscn")
+		print('path', path)
 		var new_ally = load(path).instantiate()
 		new_ally.visible = false
 		BattlefieldInfo.y_sort_player_party.add_child(new_ally)

@@ -43,6 +43,7 @@ func change_scene_to_packed(path, delay = 0.1):
 	await animation_player.animation_finished
 	
 	# Change scene
+	print('change_scene_to_packed', path)
 	get_tree().change_scene_to_packed(path)
 	
 	# Change to new level

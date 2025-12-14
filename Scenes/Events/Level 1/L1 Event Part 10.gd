@@ -87,3 +87,4 @@ func move_camera():
 	BattlefieldInfo.main_game_camera.MainCameraTween.set_ease(Tween.EASE_IN_OUT)
 	BattlefieldInfo.main_game_camera.make_current()
 	BattlefieldInfo.main_game_camera.MainCameraTween.tween_property(BattlefieldInfo.main_game_camera, "position", new_position_for_camera, 1)
+	BattlefieldInfo.main_game_camera.MainCameraTween.play()

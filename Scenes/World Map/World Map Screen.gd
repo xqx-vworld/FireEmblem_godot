@@ -22,6 +22,9 @@ var World_Map_Cam_Tween = create_tween()
 var World_Map_Music_Tween = create_tween()
 
 func _ready():
+	Eirika_Tween.stop()
+	World_Map_Cam_Tween.stop()
+	World_Map_Music_Tween.stop()
 	# 连接 finished 信号
 	Eirika_Tween.finished.connect(Callable(self, "set_eirika_idle"))
 	#$"Eirika/Eirika Tween".connect("tween_completed", Callable(self, "set_eirika_idle"))
@@ -124,6 +127,7 @@ func stop_main_camera():
 func exit():
 	$Anim.play_backwards("Fade ")
 	World_Map_Music_Tween.tween_property($"World Map Music 1", "volume_db", -80.0, 0.5)
+	World_Map_Music_Tween.play()
 	#$"World Map Music 1/Music Tween".interpolate_property($"World Map Music 1", "volume_db", 0.0, -80.0, 0.5, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
 	#$"World Map Music 1/Music Tween".start()
 	await $Anim.animation_finished

@@ -1,8 +1,8 @@
 7fb3cd1c1d6782fc4cfa2eb439cad015
-::res://::1765692821
+::res://::1772240789
 CONTRIBUTORS.md::TextFile::-1::1608686902::0::1::::<><><>0<>0<><>::
-default_bus_layout.tres::AudioBusLayout::5124508916887037135::1765685682::0::1::::<><><>0<>0<><>::
-default_env.tres::Environment::2541566330656523826::1765692275::0::1::::<><><>0<>0<><>::
+default_bus_layout.tres::AudioBusLayout::5124508916887037135::1772240794::0::1::::<><><>0<>0<><>::
+default_env.tres::Environment::2541566330656523826::1772199061::0::1::::<><><>0<>0<><>::
 FE Icon.jpg::CompressedTexture2D::2822122630631048523::1608686902::1765077008::1::::<><><>0<>0<>26332cc7c5576c37255baf61c61de4d3<>res://.godot/imported/FE Icon.jpg-5a88fae3ff5dd483f9022bb5ea12b089.ctex::
 icon.png::CompressedTexture2D::8604548682594801980::1608686902::1765077008::1::::<><><>0<>0<>b6a3df25ea357c928ed1d90f8f63bd18<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 Notes.txt::TextFile::-1::1765178026::0::1::::<><><>0<>0<><>::
@@ -60,12 +60,12 @@ arrow 2.png::CompressedTexture2D::2379040634059292717::1608686902::1765077007::1
 arrowDialogue.png::CompressedTexture2D::2033746238922808081::1608686902::1765077017::1::::<><><>0<>0<>38a9d9f5be2ef29d217ccf267101e056<>res://.godot/imported/arrowDialogue.png-269b72165170b8d50d08ad8f838d4c18.ctex::
 dialogue Box 3H.png::CompressedTexture2D::433634807812442422::1608686902::1765077007::1::::<><><>0<>0<>36802ac5d98630a643c003c18db1075f<>res://.godot/imported/dialogue Box 3H.png-def080c8d51c21cd1f51ecb20c6e1a3b.ctex::
 dialogueBox.png::CompressedTexture2D::4798944519776713288::1608686902::1765077017::1::::<><><>0<>0<>7ee61dcc87305d1934e44a43b4973459<>res://.godot/imported/dialogueBox.png-ea3eda4221689e3bddac6287cb36b6eb.ctex::
-::res://assets/font/::1765685802
-Action Selector Font.tres::FontFile::4770748296727561656::1765685802::0::1::::<><><>0<>0<><>::
+::res://assets/font/::1771895398
+Action Selector Font.tres::FontFile::4770748296727561656::1771895398::0::1::::<><><>0<>0<><>::
 Font_Resource.tres::FontFile::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/font/Main Font.ttf
 main font.png::CompressedTexture2D::7759534844573089337::1608686902::1765077017::1::::<><><>0<>0<>ea7f691662e5bc0c476a3b459ad2c5eb<>res://.godot/imported/main font.png-e0fd9cc4cf9dfe8f3d68143c04e55fc8.ctex::
 Main Font.ttf::FontFile::2803326808283856842::1608686902::1765077016::1::::<><><>0<>0<>14d707f9d5119361b88bdcbb6943dda3<>res://.godot/imported/Main Font.ttf-3c8d9ac194c6ea3876f0ea9d843e2fa0.fontdata::
-Messaging Font.tres::FontFile::2482329955481359453::1765685801::0::1::::<><><>0<>0<><>::
+Messaging Font.tres::FontFile::2482329955481359453::1771895398::0::1::::<><><>0<>0<><>::
 Name Font.tres::FontFile::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/font/Main Font.ttf
 outline.png::CompressedTexture2D::3358629063925065550::1608686902::1765077017::1::::<><><>0<>0<>bd4367870ed17b266927fd1639c87826<>res://.godot/imported/outline.png-558320326511cb45cd9e479bb1c6fcc7.ctex::
 Preparation Screen Item List Font.tres::FontFile::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/font/Main Font.ttf
@@ -130,10 +130,10 @@ The Long Road.ogg::AudioStreamOggVorbis::8494021766403791087::1608686902::176507
 Unfufilled.ogg::AudioStreamOggVorbis::8902717609246136123::1608686902::1765077006::1::::<><><>0<>0<>044b4d7705734896752ed0c15f0fb351<>res://.godot/imported/Unfufilled.ogg-70f0a2d4300e08e3c65c9d6bd97965e5.oggvorbisstr::
 ::res://assets/Preparation/::1765077009
 Preparation Screen.png::CompressedTexture2D::3159611910312511305::1608686902::1765077009::1::::<><><>0<>0<>c64cf0e46b0efff71838d78f6b118f73<>res://.godot/imported/Preparation Screen.png-790ccba5b0623eed34d07f2151a3be95.ctex::
-::res://assets/Shaders/::1765685802
+::res://assets/Shaders/::1771895398
 Burn Shader Effect Shorter.tres::ShaderMaterial::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/Shaders/Burn Shader Shorter.gdshader
-Burn Shader Effect.tres::ShaderMaterial::9088935089812597464::1765685802::0::1::::<><><>0<>0<><>::
-Burn Shader Shorter.gdshader::Shader::5707100889976681948::1765076919::0::1::::<><><>0<>0<><>::
+Burn Shader Effect.tres::ShaderMaterial::9088935089812597464::1771895398::0::1::::<><><>0<>0<><>::
+Burn Shader Shorter.gdshader::Shader::5707100889976681948::1771895398::0::1::::<><><>0<>0<><>::
 ::res://assets/sound/::1765076856
 ::res://assets/sound/battle sounds/::1765077020
 ARROW_2.wav::AudioStreamWAV::3773324385813430697::1608686902::1765077020::1::::<><><>0<>0<>66a2a8259571c420a3f4bbb790e51cf1<>res://.godot/imported/ARROW_2.wav-7774920f46ca0d6a60051278b030b625.sample::
@@ -236,12 +236,12 @@ Spear Throw.wav::AudioStreamWAV::1471815804121712154::1608686902::1765077007::1:
 Thunder Effect 1.wav::AudioStreamWAV::3740754728670032319::1608686902::1765077019::1::::<><><>0<>0<>f697b999face8e10bf14a9e985a3e0ec<>res://.godot/imported/Thunder Effect 1.wav-fd4b952b71cf941be2b4cd8121ee502c.sample::
 Thunder Effect 2.wav::AudioStreamWAV::1511335951353197602::1608686902::1765077019::1::::<><><>0<>0<>2ad2e79ecdedeb614d014fd39501730e<>res://.godot/imported/Thunder Effect 2.wav-c9022f54c75c99f4066becc434020aa4.sample::
 Thunder Effect 3.wav::AudioStreamWAV::1147419188294384420::1608686902::1765077019::1::::<><><>0<>0<>2c61888efae5ecf006508568bb2c86e5<>res://.godot/imported/Thunder Effect 3.wav-1728b5cbd78768160ac32c95b49340a9.sample::
-::res://assets/Textures/::1765077018
-Combat Transition.gdshader::Shader::1081891622652783734::1765076919::0::1::::<><><>0<>0<><>::
-Level Up Screen.gdshader::Shader::5693853673341571334::1765076919::0::1::::<><><>0<>0<><>::
+::res://assets/Textures/::1771895398
+Combat Transition.gdshader::Shader::1081891622652783734::1771895398::0::1::::<><><>0<>0<><>::
+Level Up Screen.gdshader::Shader::5693853673341571334::1771895398::0::1::::<><><>0<>0<><>::
 Noise Test.tres::NoiseTexture2D::-1::1765076919::0::1::::<><><>0<>0<><>::
 rain2.png::CompressedTexture2D::8398121937732658212::1608686902::1765077018::1::::<><><>0<>0<>4f5a0096056424353396e12ccf2736c9<>res://.godot/imported/rain2.png-b77ec68f1e71d97ffdd398f9c9dd7101.ctex::
-Rain Noise Texture.tres::ShaderMaterial::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/Textures/Rain Noise.png
+Rain Noise Texture.tres::ShaderMaterial::1260832686122775140::1765694796::0::1::::<><><>0<>0<><>::
 Rain Noise.png::CompressedTexture2D::3436022818739850618::1608686902::1765077018::1::::<><><>0<>0<>6c20c636400108811345c78b4d39eb83<>res://.godot/imported/Rain Noise.png-04dd31f286ffbc02f0176b395695435c.ctex::
 ::res://assets/transition/::1765077018
 circle.png::CompressedTexture2D::2434375166437243142::1608686902::1765077018::1::::<><><>0<>0<>0cf7852a1ab7d7e054c5b2b6da74af34<>res://.godot/imported/circle.png-3077b3449e37b9231e8764759e80a963.ctex::
@@ -499,7 +499,7 @@ Extra Sound Effects.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::r
 MusicPlayer.gd::GDScript::8220234217502718156::1765690724::0::1::::Music_Player<>Node<><>0<>0<><>::
 MusicPlayer.tscn::PackedScene::7818617704951133155::1765691017::0::1::::<><><>0<>0<><>::uid://dpd7b6np5j157::::res://Scenes/Audio/MusicPlayer.gd<>uid://csd4ltk5lntbi::::res://assets/music/Fodlan Winds.ogg<>uid://cgwhd8dr1x3nf::::res://assets/music/Chasing Daybreak.ogg<>uid://dy3spt232jl0f::::res://assets/music/Unfufilled.ogg
 Weapon Sounds.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/sound/weapon sounds/Bow Shoot.wav<>res://assets/sound/weapon sounds/Bow.wav<>res://assets/sound/weapon sounds/Draw Weapon.wav<>res://assets/sound/weapon sounds/Hand Axe.wav<>res://assets/sound/weapon sounds/Legendary Weapon.wav<>res://assets/sound/weapon sounds/Put Away Weapon.wav<>res://assets/sound/weapon sounds/Spear Throw.wav
-::res://Scenes/Battlefield/::1765692275
+::res://Scenes/Battlefield/::1765697508
 Battlefield Container.gd::GDScript::5831242385432555646::1765076919::0::1::::<>Node2D<><>0<>0<><>::
 BattlefieldInfo.gd::GDScript::3531339583870590690::1765692275::0::1::::<>Node<><>0<>0<><>::
 Chapter 2.gd::GDScript::1592751493716019907::1765076919::0::1::::<>Node2D<><>0<>0<><>::
@@ -510,10 +510,10 @@ Chapter 4.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://Scene
 Chapter 5.gd::GDScript::3749372227061159505::1765158688::0::1::::<>Node2D<><>0<>0<><>::
 Chapter 5.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://Scenes/Battlefield/Chapter 5.gd<>res://Scenes/Levels/Level5.tscn
 Level.gd::GDScript::1821276547947428924::1765076919::0::1::::<>Node2D<><>0<>0<><>::
-Level.tscn::PackedScene::3891097865948205054::1765179039::0::1::::<><><>0<>0<><>::uid://07ifnnxr8j77::::res://Scenes/Battlefield/Level.gd<>res://Scenes/GUI/Cursor/Cursor.tscn<>res://Scenes/Camera/GameCamera.tscn<>res://Scenes/Transition/Turn Transition.tscn<>res://Scenes/GUI/Overhead/GUI Areas.tscn<>uid://dessxfvf33yul::::res://Scenes/Combat/Combat Screen.tscn<>res://Scenes/GUI/Overhead/BattlefieldHUD.tscn<>res://Scenes/GUI/Action Selector/Action Selector.tscn<>res://Scenes/GUI/End Turn/End Turn.tscn<>res://Scenes/GUI/Weapon Select/Weapon Select.tscn<>res://Scenes/GUI/Weapon Select/Healing Select.tscn<>res://Scenes/GUI/Damage Preview/Damage Preview.tscn<>res://Scenes/GUI/Damage Preview/Healing Preview.tscn<>res://Scenes/Messaging/Message System.tscn<>res://Scenes/GUI/Item Screen/Item Screen.tscn<>res://Scenes/GUI/Trade/Trade Screen.tscn<>res://Scenes/GUI/Unit Info/Unit Info Screen.tscn<>res://Scenes/Preparation Screen/Preparation Screen.tscn<>res://Engine/Systems/Event System.tscn
-::res://Scenes/Camera/::1765692275
-GameCamera.tscn::PackedScene::7386844254360318148::1765692275::0::1::::<><><>0<>0<><>::uid://crqg10pgn6ei5::::res://Scenes/Camera/MainCamera.gd
-MainCamera.gd::GDScript::5999493822442863238::1765691625::0::1::::MainCamera<>Camera2D<><>0<>0<><>::
+Level.tscn::PackedScene::3891097865948205054::1765697508::0::1::::<><><>0<>0<><>::uid://07ifnnxr8j77::::res://Scenes/Battlefield/Level.gd<>res://Scenes/GUI/Cursor/Cursor.tscn<>uid://ddiiil7syon0o::::res://Scenes/Camera/GameCamera.tscn<>res://Scenes/Transition/Turn Transition.tscn<>res://Scenes/GUI/Overhead/GUI Areas.tscn<>uid://dessxfvf33yul::::res://Scenes/Combat/Combat Screen.tscn<>res://Scenes/GUI/Overhead/BattlefieldHUD.tscn<>res://Scenes/GUI/Action Selector/Action Selector.tscn<>res://Scenes/GUI/End Turn/End Turn.tscn<>res://Scenes/GUI/Weapon Select/Weapon Select.tscn<>res://Scenes/GUI/Weapon Select/Healing Select.tscn<>res://Scenes/GUI/Damage Preview/Damage Preview.tscn<>res://Scenes/GUI/Damage Preview/Healing Preview.tscn<>res://Scenes/Messaging/Message System.tscn<>res://Scenes/GUI/Item Screen/Item Screen.tscn<>res://Scenes/GUI/Trade/Trade Screen.tscn<>uid://dp7j5q8lwk8sd::::res://Scenes/GUI/Unit Info/Unit Info Screen.tscn<>res://Scenes/Preparation Screen/Preparation Screen.tscn<>res://Engine/Systems/Event System.tscn
+::res://Scenes/Camera/::1765697079
+GameCamera.tscn::PackedScene::7386844254360318148::1765697079::0::1::::<><><>0<>0<><>::uid://crqg10pgn6ei5::::res://Scenes/Camera/MainCamera.gd
+MainCamera.gd::GDScript::5999493822442863238::1765697079::0::1::::MainCamera<>Camera2D<><>0<>0<><>::
 MovementCamera.gd::GDScript::3966741339147869571::1765076919::0::1::::<>Camera2D<><>0<>0<><>::
 MovementCamera.tscn::PackedScene::-1::1765691768::0::1::::<><><>0<>0<><>::uid://bwrrwd0xpwow6::::res://Scenes/Camera/MovementCamera.gd
 ::res://Scenes/Chapter/::1765686100
@@ -541,9 +541,9 @@ Item_List_Scene.gd::GDScript::535675664483716147::1765678620::0::1::::<>ColorRec
 Item_List_Scene.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/font/Weapon Name.tres<>res://Scenes/Convoy/Item_List_Scene.gd<>res://assets/font/Main Font.ttf<>res://Scenes/GUI/Hand Cursor/Hand Selector.tscn
 ::res://Scenes/Events/::1765077015
 Event Base.gd::GDScript::2069020838148832723::1765076919::0::1::::Event_Base<>Node2D<><>0<>0<><>::
-::res://Scenes/Events/Level 1/::1765690422
+::res://Scenes/Events/Level 1/::1765697154
 Event Loader L1.gd::GDScript::6254256211479702324::1765076919::0::1::::<>Node<><>0<>0<><>::
-L1 Event Part 10.gd::GDScript::6334251022537806897::1765690422::0::1::::L1_Event_Part_10<>Event_Base<><>0<>0<><>::
+L1 Event Part 10.gd::GDScript::6334251022537806897::1765697154::0::1::::L1_Event_Part_10<>Event_Base<><>0<>0<><>::
 L1 Event Part 20.gd::GDScript::7427374491387338386::1765690336::0::1::::L1_Event_Part_20<>Event_Base<><>0<>0<><>::
 L1 Event Part 30.gd::GDScript::1092918727193206266::1765076919::0::1::::L1_Event_Part_30<>Event_Base<><>0<>0<><>::
 ::res://Scenes/Events/Level 2/::1765690896
@@ -675,9 +675,9 @@ Level Up Screen.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res:/
 More Stat Arrow.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/UI/XP and Level/more_stat.png
 XP Screen.gd::GDScript::3975413736307184955::1765076919::0::1::::<>Control<><>0<>0<><>::
 XP Screen.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://Scenes/GUI/XP and Level/XP Screen.gd<>res://assets/UI/XP and Level/xp_ui.png<>res://assets/UI/XP and Level/xp_empty_bar.png<>res://assets/UI/XP and Level/xp_full_bar.png<>res://assets/font/Main Font.ttf<>res://assets/sound/misc/xp gain.wav
-::res://Scenes/Intro Screen/::1765687897
+::res://Scenes/Intro Screen/::1771895428
 Intro Screen.gd::GDScript::3076870993347422363::1765687897::0::1::::<>Control<><>0<>0<><>::
-Intro Screen.tscn::PackedScene::7493912448783873024::1765687451::0::1::::<><><>0<>0<><>::uid://bj3pu61oc6ejb::::res://Scenes/Intro Screen/Intro Screen.gd<>uid://dtcj5jsplknw7::::res://assets/intro screen/intro background.jpg<>uid://cpnddgyjrkgkj::::res://assets/music/01 Fire Emblem_ Three Houses Main Theme.ogg<>uid://b878r6ygo8uuy::::res://assets/font/Action Selector Font.tres<>res://Scenes/GUI/Hand Cursor/Hand Selector.tscn<>res://Scenes/Particles/Fog.tscn
+Intro Screen.tscn::PackedScene::7493912448783873024::1771895428::0::1::::<><><>0<>0<><>::uid://bj3pu61oc6ejb::::res://Scenes/Intro Screen/Intro Screen.gd<>uid://dtcj5jsplknw7::::res://assets/intro screen/intro background.jpg<>uid://cpnddgyjrkgkj::::res://assets/music/01 Fire Emblem_ Three Houses Main Theme.ogg<>uid://b878r6ygo8uuy::::res://assets/font/Action Selector Font.tres<>res://Scenes/GUI/Hand Cursor/Hand Selector.tscn<>res://Scenes/Particles/Fog.tscn
 ::res://Scenes/Items/::1765156866
 Item.gd::GDScript::9061646667297049679::1765076919::0::1::::Item<>Node2D<><>0<>0<><>::
 Item.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://Scenes/Items/Item.gd
@@ -715,84 +715,84 @@ Flux.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://Scenes/Ite
 ::res://Scenes/Items/Unarmed/::1765077015
 Unarmed.gd::GDScript::6928500179730873421::1765076919::0::1::::<>Node2D<><>0<>0<><>::
 Unarmed.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://Scenes/Items/Unarmed/Unarmed.gd
-::res://Scenes/Levels/::1765682495
-level2.gd::GDScript::8267813049287768817::1765076918::0::1::::<>Node2D<><>0<>0<><>::
+::res://Scenes/Levels/::1765697484
+level2.gd::GDScript::8267813049287768817::1765694813::0::1::::<>Node2D<><>0<>0<><>::
 level2.tscn::PackedScene::-1::1765682495::0::1::::<><><>0<>0<><>::res://assets/levels/level2/level2.tmx<>uid://dp18w471jy70p::::res://Scenes/Levels/level2.gd<>res://Scenes/Weather Effects/Rain.tscn
-Level3.gd::GDScript::4341398564603958851::1765076918::0::1::::<>Node2D<><>0<>0<><>::
-Level3.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://assets/levels/level3/level3.tmx<>res://Scenes/Levels/Level3.gd
-Level4a.gd::GDScript::6787927420352794362::1765076918::0::1::::<>Node2D<><>0<>0<><>::
+Level3.gd::GDScript::4341398564603958851::1765697484::0::1::::<>Node2D<><>0<>0<><>::
+Level3.tscn::PackedScene::961833370531394284::1765695602::0::1::::<><><>0<>0<><>::uid://dpbrnqb5hxge1::::res://assets/levels/level3/level3.tmx<>uid://b24ag2jwovlxb::::res://Scenes/Levels/Level3.gd
+Level4a.gd::GDScript::6787927420352794362::1765694809::0::1::::<>Node2D<><>0<>0<><>::
 Level4a.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://assets/levels/level5/level5.tmx<>res://Scenes/Levels/Level4a.gd<>res://icon.png
-Level5.gd::GDScript::6198422872362868737::1765076918::0::1::::<>Node2D<><>0<>0<><>::
+Level5.gd::GDScript::6198422872362868737::1765694802::0::1::::<>Node2D<><>0<>0<><>::
 Level5.tscn::PackedScene::-1::1765076919::0::1::::<><><>0<>0<><>::res://assets/levels/level4/level4.tmx<>res://Scenes/Levels/Level5.gd
 Thunder Effect.gd::GDScript::8776270116709176827::1765076919::0::1::::<>Sprite2D<><>0<>0<><>::
 ::res://Scenes/Messaging/::1765680101
 Message System.gd::GDScript::2123584530933797810::1765680101::0::1::::Messaging_System<>CanvasLayer<><>0<>0<><>::
 Message System.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Messaging/Message System.gd<>res://assets/Dialogue/dialogue Box 3H.png<>res://assets/Dialogue/arrow 2.png<>res://assets/font/Main Font.ttf<>res://assets/font/Messaging Font.tres<>res://assets/units/eirika/eirika mugshot.png
-::res://Scenes/Particles/::1765692275
-First Pass Particles.tres::ParticleProcessMaterial::2135022861304580042::1765692275::0::1::::<><><>0<>0<><>::
+::res://Scenes/Particles/::1771895398
+First Pass Particles.tres::ParticleProcessMaterial::2135022861304580042::1771895398::0::1::::<><><>0<>0<><>::
 Fog.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://icon.png<>res://Scenes/Particles/First Pass Particles.tres
 ::res://Scenes/Preparation Screen/::1765156215
 Preparation Screen.gd::GDScript::2696704636428810317::1765156215::0::1::::<>CanvasLayer<><>0<>0<><>::
 Preparation Screen.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Preparation Screen/Preparation Screen.gd<>res://assets/Preparation/Preparation Screen.png<>res://assets/font/Main Font.ttf<>res://Scenes/GUI/Hand Cursor/Hand Selector.tscn<>res://assets/music/Swift As Wind.wav<>res://assets/music/Fierce as fire.wav<>res://assets/sound/transition/Chapter Start.wav<>res://assets/font/Preparation Screen Item List Font.tres<>res://Scenes/GUI/Unit Selectors/Unit Select.tscn<>res://Scenes/GUI/Shop/Shop UI.tscn
-::res://Scenes/Transition/::1765077015
+::res://Scenes/Transition/::1765697508
 Combat Transition.gd::GDScript::8478201081079571389::1765076918::0::1::::<>Control<><>0<>0<><>::
 Combat Transition.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Transition/Combat Transition.gd<>res://assets/Textures/Combat Transition.gdshader<>res://assets/transition/shards.png<>res://assets/sound/transition/Battle Start 1.wav
-Scene Transition.gd::GDScript::1156018959542218296::1765076918::0::1::::<>CanvasLayer<><>0<>0<><>::
+Scene Transition.gd::GDScript::1156018959542218296::1765697508::0::1::::<>CanvasLayer<><>0<>0<><>::
 Scene Transition.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Transition/Scene Transition.gd
 Turn Transition.gd::GDScript::8470566088843270588::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Turn Transition.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Transition/Turn Transition.gd<>res://assets/transition/player phase.png<>res://assets/transition/enemy phase.png<>res://assets/sound/transition/Next Turn.wav
 ::res://Scenes/Units/::1765076855
-::res://Scenes/Units/Enemy_Units/::1765077015
+::res://Scenes/Units/Enemy_Units/::1765697079
 Bandit Combat.gd::GDScript::2709763210419308158::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Bandit Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Bandit Combat.gd<>res://assets/units/bandit/fighter_Regular_black.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/transition/white flash.png
-Bandit.gd::GDScript::8953577167058029216::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Bandit.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Bandit.gd<>res://assets/units/bandit/bandit_black.png<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://Scenes/AI/AI.tscn<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
+Bandit.gd::GDScript::8953577167058029216::1765695486::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Bandit.tscn::PackedScene::-1::1765695984::0::1::::<><><>0<>0<><>::uid://d0tgdwvi8hl4s::::res://Scenes/Units/Enemy_Units/Bandit.gd<>uid://j1olcskv3kgg::::res://assets/units/bandit/bandit_black.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/AI/AI.tscn<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
 Black Archer Combat.gd::GDScript::1205450200452032753::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Black Archer Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Black Archer Combat.gd<>res://assets/units/archer/black archer regular.png<>res://assets/units/archer/black archer crit.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/transition/white flash.png<>res://assets/sound/battle sounds/ARROW_2.wav
-Black Archer.gd::GDScript::1615321043385496756::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Black Archer.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Black Archer.gd<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://assets/units/archer/black archer.png<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/AI/AI.tscn
+Black Archer.gd::GDScript::1615321043385496756::1765695559::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Black Archer.tscn::PackedScene::-1::1765695997::0::1::::<><><>0<>0<><>::uid://xaqdpovj2x7q::::res://Scenes/Units/Enemy_Units/Black Archer.gd<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>uid://cy626rgh61msq::::res://assets/units/archer/black archer.png<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/AI/AI.tscn
 Black Soldier Combat.gd::GDScript::4128071098954634726::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Black Soldier Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Black Soldier Combat.gd<>res://assets/units/soldier/soldier_black.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/transition/white flash.png
 Dark Mage Enemy Combat.gd::GDScript::3596160839569624171::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Dark Mage Enemy Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Dark Mage Enemy Combat.gd<>res://assets/units/darkmage/Dark Mage Combat.png<>res://assets/transition/white flash.png<>res://assets/battle_effects/flux.png<>res://assets/sound/battle sounds/Flux1.wav<>res://assets/sound/battle sounds/Flux2.wav<>res://assets/sound/battle sounds/Flux3.wav
-Dark Mage Enemy.gd::GDScript::1642387950017672849::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Dark Mage Enemy.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Dark Mage Enemy.gd<>res://assets/units/darkmage/darkmage.png<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/AI/AI.tscn
+Dark Mage Enemy.gd::GDScript::1642387950017672849::1765695547::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Dark Mage Enemy.tscn::PackedScene::-1::1765696009::0::1::::<><><>0<>0<><>::uid://xnt5imc8045j::::res://Scenes/Units/Enemy_Units/Dark Mage Enemy.gd<>uid://ce13gm6krot8o::::res://assets/units/darkmage/darkmage.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/AI/AI.tscn
 Enemy General Black Combat.gd::GDScript::4761136257295296912::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Enemy General Black Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Enemy General Black Combat.gd<>res://assets/sound/misc/ARMOR_0.wav<>res://assets/units/general/general axe black.png<>res://assets/units/general/general crit axe black.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/transition/white flash.png<>res://assets/sound/battle sounds/AXE_3.wav
 Enemy General Black.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Enemy General.gd<>res://assets/units/general/general black.png<>res://assets/sound/unitMovement/Heavy Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/AI/AI.tscn
-Enemy General.gd::GDScript::7030772803527785156::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Enemy General.gd::GDScript::7030772803527785156::1765695588::0::1::::<>Battlefield_Unit<><>0<>0<><>::
 Enemy Pegasus Knight Combat.gd::GDScript::3320282041325146042::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Enemy Pegasus Knight Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://assets/units/pegasus knight/enemy pegasus lance regular.png<>res://assets/units/pegasus knight/enemy pegasus lance crit.png<>res://assets/sound/unitMovement/PEGASUS_FLAP_0.wav<>res://assets/transition/white flash.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/sound/battle sounds/AXE_3.wav
-Enemy Pegasus Knight.gd::GDScript::5402742295959831251::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Enemy Pegasus Knight.gd::GDScript::5402742295959831251::1765695602::0::1::::<>Battlefield_Unit<><>0<>0<><>::
 Enemy Pegasus Knight.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Enemy Pegasus Knight.gd<>res://assets/units/pegasus knight/enemy pegasus knight.png<>res://Scenes/AI/AI.tscn<>res://Scenes/Units/Player_Units/AllyUnits/Default Anim.tres<>res://assets/sound/unitMovement/PEGASUS_FLAP_0.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
-Enemy Soldier.gd::GDScript::6097730209232444520::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Enemy Soldier.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Enemy_Units/Enemy Soldier.gd<>res://assets/units/soldier/soldier_black.png<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/AI/AI.tscn
+Enemy Soldier.gd::GDScript::6097730209232444520::1765697079::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Enemy Soldier.tscn::PackedScene::-1::1765696029::0::1::::<><><>0<>0<><>::uid://cs41yw4g6516c::::res://Scenes/Units/Enemy_Units/Enemy Soldier.gd<>uid://d06b3ghu4ctjl::::res://assets/units/soldier/soldier_black.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/AI/AI.tscn
 ::res://Scenes/Units/Player_Units/::1765076855
 ::res://Scenes/Units/Player_Units/AllyUnits/::1765076855
 Default Anim.tres::Animation::-1::1765076918::0::1::::<><><>0<>0<><>::res://assets/sound/unitMovement/PEGASUS_FLAP_0.wav
-::res://Scenes/Units/Player_Units/AllyUnits/Ally Archer/::1765077015
-Ally Archer.gd::GDScript::3215071515367429732::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Ally Archer.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Archer/Ally Archer.gd<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://assets/units/archer/archer ally.png<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
+::res://Scenes/Units/Player_Units/AllyUnits/Ally Archer/::1765696204
+Ally Archer.gd::GDScript::3215071515367429732::1765695344::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Ally Archer.tscn::PackedScene::-1::1765696204::0::1::::<><><>0<>0<><>::uid://bl2n01ns1p8yy::::res://Scenes/Units/Player_Units/AllyUnits/Ally Archer/Ally Archer.gd<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>uid://bx7etig7t0ox5::::res://assets/units/archer/archer ally.png<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
 Naomi Combat.gd::GDScript::7388916753648691623::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Naomi Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Archer/Naomi Combat.gd<>res://assets/units/archer/neimi archer regular.png<>res://assets/units/archer/neimi crit bow.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/transition/white flash.png<>res://assets/sound/battle sounds/ARROW_2.wav
-::res://Scenes/Units/Player_Units/AllyUnits/Ally Knight/::1765077015
-Ally Knight.gd::GDScript::2782866045359697432::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+::res://Scenes/Units/Player_Units/AllyUnits/Ally Knight/::1765695254
+Ally Knight.gd::GDScript::2782866045359697432::1765695254::0::1::::<>Battlefield_Unit<><>0<>0<><>::
 Ally Knight.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Knight/Ally Knight.gd<>res://assets/units/knight/knight ally.png<>res://assets/sound/unitMovement/Heavy Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
 Gilliam Combat.gd::GDScript::1383760881584059444::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Gilliam Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Knight/Gilliam Combat.gd<>res://assets/units/knight/ally knight spear.png<>res://assets/units/knight/ally knight spear critical.png<>res://assets/transition/white flash.png<>res://assets/battle_effects/Physical Effects.png
-::res://Scenes/Units/Player_Units/AllyUnits/Ally Mage/::1765077015
+::res://Scenes/Units/Player_Units/AllyUnits/Ally Mage/::1765695835
 Ally Mage Combat.gd::GDScript::1391941637508715982::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Ally Mage Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Mage/Ally Mage Combat.gd<>res://assets/sound/weapon sounds/Draw Weapon.wav<>res://assets/sound/battle sounds/FIRE_0.wav<>res://assets/sound/battle sounds/FIRE_1.wav<>res://assets/units/mage/ally mage regular.png<>res://assets/units/mage/mage ally crit.png<>res://assets/battle_effects/Fire effect.png<>res://assets/transition/white flash.png
-Ally Mage.gd::GDScript::2943473536135103415::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Ally Mage.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Mage/Ally Mage.gd<>res://assets/units/mage/mage ally.png<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
-::res://Scenes/Units/Player_Units/AllyUnits/Ally Pegasus Knight/::1765077015
-Ally Pegasus Knight.gd::GDScript::4348596743637705667::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Ally Pegasus Knight.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Pegasus Knight/Ally Pegasus Knight.gd<>res://assets/sound/unitMovement/PEGASUS_FLAP_0.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/Units/Player_Units/AllyUnits/Default Anim.tres
+Ally Mage.gd::GDScript::2943473536135103415::1765695352::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Ally Mage.tscn::PackedScene::-1::1765695835::0::1::::<><><>0<>0<><>::uid://bh63txoxgxopj::::res://Scenes/Units/Player_Units/AllyUnits/Ally Mage/Ally Mage.gd<>uid://bx8mdptbjis6d::::res://assets/units/mage/mage ally.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
+::res://Scenes/Units/Player_Units/AllyUnits/Ally Pegasus Knight/::1771042437
+Ally Pegasus Knight.gd::GDScript::4348596743637705667::1765695327::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Ally Pegasus Knight.tscn::PackedScene::8069550923083363023::1771042437::0::1::::<><><>0<>0<><>::uid://b27q0urc2hw88::::res://Scenes/Units/Player_Units/AllyUnits/Ally Pegasus Knight/Ally Pegasus Knight.gd<>uid://ctk7w0mnsorrs::::res://assets/sound/unitMovement/PEGASUS_FLAP_0.wav<>uid://dodls0niluejk::::res://assets/units/pegasus knight/ally pegasus knight.png<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/Units/Player_Units/AllyUnits/Default Anim.tres
 Vanessa Combat.gd::GDScript::6725495027377252285::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Vanessa Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Pegasus Knight/Vanessa Combat.gd<>res://assets/units/pegasus knight/vanessa lance regular.png<>res://assets/units/pegasus knight/vanessa lance crit.png<>res://assets/sound/unitMovement/PEGASUS_FLAP_0.wav<>res://assets/transition/white flash.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/sound/battle sounds/AXE_3.wav
-::res://Scenes/Units/Player_Units/AllyUnits/Ally Thief/::1765077015
-Ally Thief.gd::GDScript::7924414398873816447::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Ally Thief.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Thief/Ally Thief.gd<>res://assets/units/thief/Thief Blue Ally.png<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
+::res://Scenes/Units/Player_Units/AllyUnits/Ally Thief/::1765695866
+Ally Thief.gd::GDScript::7924414398873816447::1765695359::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Ally Thief.tscn::PackedScene::-1::1765695866::0::1::::<><><>0<>0<><>::uid://dk5v7hf0l7x5x::::res://Scenes/Units/Player_Units/AllyUnits/Ally Thief/Ally Thief.gd<>uid://dmbkced1csb25::::res://assets/units/thief/Thief Blue Ally.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
 Colm Combat.gd::GDScript::5487696156106045044::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Colm Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ally Thief/Colm Combat.gd<>res://assets/units/thief/colm regular.png<>res://assets/units/thief/colm crit.png<>res://assets/transition/white flash.png<>res://assets/battle_effects/Physical Effects.png
 ::res://Scenes/Units/Player_Units/AllyUnits/Eirika/::1765678514
@@ -800,16 +800,16 @@ Eirika Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://S
 Eirika Idle Anim.tres::Animation::-1::1765076918::0::1::::<><><>0<>0<><>::
 Eirika.gd::GDScript::7459775103883205983::1765678514::0::1::::<>Battlefield_Unit<><>0<>0<><>::
 Eirika.tscn::PackedScene::-1::1765243082::0::1::::<><><>0<>0<><>::uid://dejtn2olsi5ix::::res://Scenes/Units/Player_Units/AllyUnits/Eirika/Eirika.gd<>uid://dem3y4dgmap0f::::res://assets/units/eirika/eirika.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/Units/Player_Units/AllyUnits/Eirika/Eirika Idle Anim.tres
-::res://Scenes/Units/Player_Units/AllyUnits/Ephraim Soldier/::1765077015
-Ephraim Soldier.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ephraim Soldier/Soldier Ally.gd<>res://assets/units/soldier/soldier_blue.png<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
+::res://Scenes/Units/Player_Units/AllyUnits/Ephraim Soldier/::1765695881
+Ephraim Soldier.tscn::PackedScene::-1::1765695881::0::1::::<><><>0<>0<><>::uid://454qa3u6oqol::::res://Scenes/Units/Player_Units/AllyUnits/Ephraim Soldier/Soldier Ally.gd<>uid://dreu5p4cp8q6p::::res://assets/units/soldier/soldier_blue.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
 Soldier Ally Combat.gd::GDScript::2629567245126355960::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Soldier Ally Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Ephraim Soldier/Soldier Ally Combat.gd<>res://assets/units/soldier/soldier_blue.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/transition/white flash.png
-Soldier Ally.gd::GDScript::2099197207822665991::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-::res://Scenes/Units/Player_Units/AllyUnits/Natasha/::1765077015
+Soldier Ally.gd::GDScript::2099197207822665991::1765695369::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+::res://Scenes/Units/Player_Units/AllyUnits/Natasha/::1765695894
 Natasha Combat.gd::GDScript::896671922576134125::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Natasha Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Natasha/Natasha Combat.gd<>res://assets/units/cleric/Natasha Combat.png<>res://assets/units/cleric/Heal Restore.png<>res://assets/battle_effects/Heal Star.png<>res://assets/sound/battle sounds/Heal.wav
-Natasha.gd::GDScript::1257932756537072377::1765076918::0::1::::<>Battlefield_Unit<><>0<>0<><>::
-Natasha.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Natasha/Natasha.gd<>res://assets/sound/unitMovement/Light3D Foot Steps 1.wav<>res://assets/units/cleric/cleric_map_sprite.png<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
+Natasha.gd::GDScript::1257932756537072377::1765695418::0::1::::<>Battlefield_Unit<><>0<>0<><>::
+Natasha.tscn::PackedScene::-1::1765695894::0::1::::<><><>0<>0<><>::uid://r6l763lik0sb::::res://Scenes/Units/Player_Units/AllyUnits/Natasha/Natasha.gd<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>uid://bcprt06nqfp3f::::res://assets/units/cleric/cleric_map_sprite.png<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn
 ::res://Scenes/Units/Player_Units/AllyUnits/Seth/::1765678530
 Seth Combat.gd::GDScript::5698553676817806125::1765076918::0::1::::<>Node2D<><>0<>0<><>::
 Seth Combat.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Scenes/Units/Player_Units/AllyUnits/Seth/Seth Combat.gd<>res://assets/units/cavalier/Seth Battle.png<>res://assets/units/cavalier/Paladin Lance Regular.png<>res://assets/units/cavalier/paladin lance crit.png<>res://assets/transition/white flash.png<>res://assets/battle_effects/Physical Effects.png<>res://assets/sound/misc/CRITICAL_HORSE_0.wav<>res://assets/sound/unitMovement/Horse Steps.wav<>res://assets/sound/misc/slow horse step.wav
@@ -847,9 +847,9 @@ Walkable Map.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://Sc
 ::res://Scenes/Weather Effects/::1765684581
 Rain.tscn::PackedScene::-1::1765684581::0::1::::<><><>0<>0<><>::res://assets/Textures/Rain Noise Texture.tres<>uid://ctryv574geykr::::res://assets/levels/level2/level2.png
 Thunder Effect.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://assets/transition/white flash.png<>res://Scenes/Levels/Thunder Effect.gd<>res://assets/sound/weather sounds/Thunder Effect 1.wav<>res://assets/sound/weather sounds/Thunder Effect 2.wav<>res://assets/sound/weather sounds/Thunder Effect 3.wav
-::res://Scenes/World Map/::1765690336
-World Map Screen.gd::GDScript::1435471500080883876::1765687934::0::1::::<>Node2D<><>0<>0<><>::
-World Map Screen.tscn::PackedScene::1266511992087242758::1765690336::0::1::::<><><>0<>0<><>::uid://upmag2foldhs::::res://Scenes/World Map/World Map Screen.gd<>uid://y6mlx20g0egw::::res://assets/world map/world map.png<>uid://casu3euxe3m3h::::res://assets/music/Fire Emblem 8 Remastered - 4 In The Beginning.ogg<>res://Scenes/Messaging/Message System.tscn<>uid://dem3y4dgmap0f::::res://assets/units/eirika/eirika.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/World Map/World Map Icons/Castle Icon.tscn<>res://Scenes/World Map/World Map Icons/Fortress Icon.tscn<>res://Scenes/World Map/World Map Icons/Village Icon.tscn
+::res://Scenes/World Map/::1771895700
+World Map Screen.gd::GDScript::1435471500080883876::1765697270::0::1::::<>Node2D<><>0<>0<><>::
+World Map Screen.tscn::PackedScene::1266511992087242758::1771895700::0::1::::<><><>0<>0<><>::uid://upmag2foldhs::::res://Scenes/World Map/World Map Screen.gd<>uid://y6mlx20g0egw::::res://assets/world map/world map.png<>uid://casu3euxe3m3h::::res://assets/music/Fire Emblem 8 Remastered - 4 In The Beginning.ogg<>res://Scenes/Messaging/Message System.tscn<>uid://dem3y4dgmap0f::::res://assets/units/eirika/eirika.png<>uid://dklfrsjj60x1j::::res://assets/sound/unitMovement/Light Foot Steps 1.wav<>res://Scenes/GUI/Damage Preview/Cursor Select.tscn<>res://Scenes/World Map/World Map Icons/Castle Icon.tscn<>res://Scenes/World Map/World Map Icons/Fortress Icon.tscn<>res://Scenes/World Map/World Map Icons/Village Icon.tscn
 ::res://Scenes/World Map/World Map Icons/::1765076855
 Castle Icon.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://assets/levels/level2/level2.png
 Fortress Icon.tscn::PackedScene::-1::1765076918::0::1::::<><><>0<>0<><>::res://assets/levels/level3/level3.png

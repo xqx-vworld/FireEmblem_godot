@@ -35,20 +35,20 @@ func _input(event):
 		GAME_SELECT:
 			if Input.is_action_just_pressed("ui_up"):
 				current_option_number -= 1
-				$"Options/Hand Selector".position.y -= 18
+				$"Options/Hand Selector".position.y -= 40
 				if current_option_number < 0:
 					current_option_number = 0
 					current_option = options[current_option_number]
-					$"Options/Hand Selector".position.y += 18
+					$"Options/Hand Selector".position.y += 40
 				current_option = options[current_option_number]
 				$"Options/Hand Selector/Move".play(0)
 			if Input.is_action_just_pressed("ui_down"):
 				current_option_number += 1
-				$"Options/Hand Selector".position.y += 18
+				$"Options/Hand Selector".position.y += 40
 				if current_option_number > options.size() - 1:
 					current_option_number = options.size() - 1
 					current_option = options[current_option_number]
-					$"Options/Hand Selector".position.y -= 18
+					$"Options/Hand Selector".position.y -= 40
 				current_option = options[current_option_number]
 				$"Options/Hand Selector/Move".play(0)
 			if Input.is_action_just_pressed("ui_accept"):
@@ -67,7 +67,7 @@ func process_selection():
 		"New Game":
 			$"Anim".play("music fade out")
 			set_process_input(false)
-			
+			visible = false
 			# Reset game over status
 			BattlefieldInfo.turn_manager.set_process(true)
 			BattlefieldInfo.game_over = false

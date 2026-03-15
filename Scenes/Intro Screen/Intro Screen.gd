@@ -6,7 +6,7 @@ var no_text_background = preload("res://assets/intro screen/intro background no 
 enum {INTRO, GAME_SELECT, WAIT}
 var current_state = INTRO
 
-var options = ["New Game", "Load Game", "Options Screen"]
+var options = ["新游戏", "载入存档", "游戏设置"]
 var current_option
 var current_option_number = 0
 
@@ -21,9 +21,6 @@ func _ready():
 	
 	# Anim signal
 	$"Anim".connect("animation_finished", Callable(self, "allow_selection"))
-	
-	# No 3 houses
-	$"Intro Background".texture = no_text_background
 
 func _input(event):
 	match current_state:
@@ -31,6 +28,7 @@ func _input(event):
 			# Any key
 			if event is InputEventKey and event.is_pressed():
 				$"Anim".play("Options Fade In")
+				$"Intro Background".texture = no_text_background
 				current_state = WAIT
 		GAME_SELECT:
 			if Input.is_action_just_pressed("ui_up"):
@@ -64,7 +62,7 @@ func allow_selection(anim_name):
 
 func process_selection():
 	match current_option:
-		"New Game":
+		"新游戏":
 			$"Anim".play("music fade out")
 			set_process_input(false)
 			visible = false
@@ -76,7 +74,7 @@ func process_selection():
 			WorldMapScreen.current_event = Level1_WM_Event_Part10.new()
 			WorldMapScreen.connect_to_scene_changer()
 			SceneTransition.change_scene_to_packed(WorldMapScreen, 0.1)
-		"Load Game":
+		"载入存档":
 			# Stop song and fade to black
 			$"Anim".play("music fade out")
 			set_process_input(false)
@@ -84,7 +82,7 @@ func process_selection():
 			$"Intro Song".stop()
 			
 			# Make screen go dark
-			$Anim.play("Fade ")
+			$Anim.play("Fade")
 			await $Anim.animation_finished
 			
 			# Load the game

@@ -37,10 +37,10 @@ func change_scene_to_packed(path, delay = 0.1):
 	await get_tree().create_timer(delay).timeout
 	
 	# Play fade animation
-	animation_player.play("fade")
+	#animation_player.play("fade")
 	
 	# Load the animation and level when done
-	await animation_player.animation_finished
+	#await animation_player.animation_finished
 	
 	# Change scene
 	print('change_scene_to_packed', path)

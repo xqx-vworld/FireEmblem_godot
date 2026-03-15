@@ -6,15 +6,16 @@ class_name Level1_WM_Event_Part10
 var level = "res://Scenes/Battlefield/Chapter 2.tscn"
 
 # Eirika Start and move
-var eirika_final = Vector2(-121, -40)
-var eirika_initial = Vector2(-168, -93)
+#212 181
+var eirika_final = Vector2(259, 234)
+var eirika_initial = Vector2(212, 181)
 
 func _init():
 	# Text
 	text_array = [
-		"Due to the instability the war has brought, small groups of bandits and thieves took the advantage to cause chaos in the kingdom.",
-		"Even though the war recently ended, the Kingdom's army is incapable of patrolling the villages on the border due to the significant loses they incurred.",
-		"King Terenas instead sends his daughter Eirika and Knight Commander Seth to investigate a nearby disburtance..."
+		"由于战争带来的动荡，一伙伙强盗与窃贼趁机在王国内制造混乱。",
+		"尽管战争刚刚结束，但王国军队因遭受了惨重的损失，无力巡逻边境的村庄。",
+		"特纳斯王转而派遣其女儿艾瑞卡与骑士团长塞思去调查附近的一起骚乱……"
 	]
 	
 	# Signals needed
@@ -22,12 +23,13 @@ func _init():
 	WorldMapScreen.get_node("Message System").connect("no_more_text", Callable(self, "after_text"))
 	
 	# Set text position bottom
-	WorldMapScreen.get_node("Message System").set_position(Messaging_System.TOP)
+	# WorldMapScr     een.get_node("Message System").set_position(Messaging_System.TOP)
 	
 	# Place Fort and Castle
-	castle_waypoints_array.append(Vector2(-164, -94))
-	fort_waypoints_array.append(Vector2(-159, -129))
-	village_waypoints_array.append(Vector2(-118, -35))
+	#228 172 233 137 274 231
+	castle_waypoints_array.append(Vector2(228, 172))
+	fort_waypoints_array.append(Vector2(243, 300))
+	village_waypoints_array.append(Vector2(174, 380))
 
 func run():
 	# Set Eirika's initial position

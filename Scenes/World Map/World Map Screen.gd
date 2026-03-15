@@ -50,7 +50,7 @@ func start():
 	current_event.build_map()
 	
 	# Fade in
-	$Anim.play("Fade ")
+	$Anim.play("Fade")
 
 	# Wait until animation is done
 	await $Anim.animation_finished
@@ -125,7 +125,7 @@ func stop_main_camera():
 
 # Use to cleanup anything from this screen
 func exit():
-	$Anim.play_backwards("Fade ")
+	$Anim.play_backwards("Fade")
 	World_Map_Music_Tween.tween_property($"World Map Music 1", "volume_db", -80.0, 0.5)
 	World_Map_Music_Tween.play()
 	#$"World Map Music 1/Music Tween".interpolate_property($"World Map Music 1", "volume_db", 0.0, -80.0, 0.5, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)

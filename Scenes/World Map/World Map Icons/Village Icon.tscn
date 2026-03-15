@@ -1,9 +1,9 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://wa75l8wc4roq"]
 
-[ext_resource path="res://assets/levels/level3/level3.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://ckgv5rgh3jsk2" path="res://assets/levels/level3/level3.png" id="1"]
 
 [node name="Village Icon" type="Sprite2D"]
-scale = Vector2( 0.2, 0.2 )
-texture = ExtResource( 1 )
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1")
 region_enabled = true
-region_rect = Rect2( 0, 160, 45, 39 )
+region_rect = Rect2(0, 160, 45, 39)

@@ -10,7 +10,7 @@ var MusicPlayerTween = create_tween()
 # Play Song
 func play_song(song_name, starting_position) -> void:
 	get_node(song_name).play(starting_position)
-	$EnemyLevel.volume_db
+	$AllyLevel.volume_db = 1
 
 # Stop song
 func stop_song(song_name) -> void:

@@ -1,11 +1,1 @@
-res://Scenes/Intro Screen/Intro Screen.gd
 res://default_env.tres
-res://Scenes/Intro Screen/Intro Screen.tscn
-res://assets/font/Messaging Font.tres
-res://assets/font/Action Selector Font.tres
-res://assets/Shaders/Burn Shader Effect.tres
-res://assets/Textures/Combat Transition.gdshader
-res://Scenes/Particles/First Pass Particles.tres
-res://assets/Shaders/Burn Shader Shorter.gdshader
-res://assets/Textures/Level Up Screen.gdshader
-res://Scenes/World Map/World Map Screen.tscn

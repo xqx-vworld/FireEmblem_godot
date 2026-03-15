@@ -3,13 +3,13 @@
 [ext_resource type="Script" uid="uid://upmag2foldhs" path="res://Scenes/World Map/World Map Screen.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://y6mlx20g0egw" path="res://assets/world map/world map.png" id="2"]
 [ext_resource type="AudioStream" uid="uid://casu3euxe3m3h" path="res://assets/music/Fire Emblem 8 Remastered - 4 In The Beginning.ogg" id="3"]
-[ext_resource type="PackedScene" path="res://Scenes/Messaging/Message System.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://c4lv217xwxpdl" path="res://Scenes/Messaging/Message System.tscn" id="4"]
 [ext_resource type="Texture2D" uid="uid://dem3y4dgmap0f" path="res://assets/units/eirika/eirika.png" id="5"]
 [ext_resource type="AudioStream" uid="uid://dklfrsjj60x1j" path="res://assets/sound/unitMovement/Light Foot Steps 1.wav" id="6"]
 [ext_resource type="PackedScene" path="res://Scenes/GUI/Damage Preview/Cursor Select.tscn" id="7"]
-[ext_resource type="PackedScene" path="res://Scenes/World Map/World Map Icons/Castle Icon.tscn" id="8"]
-[ext_resource type="PackedScene" path="res://Scenes/World Map/World Map Icons/Fortress Icon.tscn" id="9"]
-[ext_resource type="PackedScene" path="res://Scenes/World Map/World Map Icons/Village Icon.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://cxupgmr5ohkv5" path="res://Scenes/World Map/World Map Icons/Castle Icon.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://cewkl4x3qwrpk" path="res://Scenes/World Map/World Map Icons/Fortress Icon.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://wa75l8wc4roq" path="res://Scenes/World Map/World Map Icons/Village Icon.tscn" id="10"]
 
 [sub_resource type="Animation" id="1"]
 length = 2.0
@@ -553,7 +553,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3a6tk"]
 _data = {
-&"Fade ": SubResource("12")
+&"Fade": SubResource("12")
 }
 
 [node name="World Map" type="Node2D"]
@@ -561,26 +561,28 @@ modulate = Color(0, 0, 0, 1)
 script = ExtResource("1")
 
 [node name="World Map Image" type="Sprite2D" parent="."]
-position = Vector2(242, 162)
+position = Vector2(600, 400)
+scale = Vector2(2.4916666, 2.5)
 texture = ExtResource("2")
 
 [node name="World Map Cam" type="Camera2D" parent="."]
 anchor_mode = 0
 limit_left = 0
 limit_top = 0
-limit_right = 480
-limit_bottom = 320
+limit_right = 1198
+limit_bottom = 806
 
 [node name="World Map Music 1" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3")
 volume_db = 6.933
 
 [node name="Message System" parent="." instance=ExtResource("4")]
+follow_viewport_enabled = true
 
 [node name="Eirika" type="Node2D" parent="."]
 z_index = 2
-position = Vector2(-301.514, -132.125)
-scale = Vector2(0.5, 0.5)
+position = Vector2(-149, -49)
+scale = Vector2(2, 2)
 
 [node name="Sprite2D" type="Sprite2D" parent="Eirika"]
 z_index = 2
@@ -601,10 +603,10 @@ libraries = {
 visible = false
 
 [node name="Castle Icon placeholder" parent="." instance=ExtResource("8")]
-position = Vector2(-296.644, -93.6808)
+position = Vector2(-235, -61)
 
 [node name="Fortress placeholder" parent="." instance=ExtResource("9")]
-position = Vector2(-270.012, -107.606)
+position = Vector2(-77, -37)
 
 [node name="Anim" type="AnimationPlayer" parent="."]
 libraries = {
@@ -612,4 +614,4 @@ libraries = {
 }
 
 [node name="Village Icon" parent="." instance=ExtResource("10")]
-position = Vector2(-285.899, -57.2718)
+position = Vector2(-330.99994, -34.99997)

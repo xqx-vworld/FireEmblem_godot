@@ -1,2 +1,6 @@
+Sprite2D
+TextureRect
+MarginContainer
+Control
 MainCamera
 Camera2D

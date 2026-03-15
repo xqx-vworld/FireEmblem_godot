@@ -22,12 +22,12 @@ var text_queue = []
 signal no_more_text
 
 # Node access
-@onready var portrait = $"Dialogue Box Texture2D/Portrait"
-@onready var char_name = $"Dialogue Box Texture2D/Character Name"
+@onready var portrait = $"DialogContainer/Dialogue Box Texture2D/Portrait"
+@onready var char_name = $"DialogContainer/Dialogue Box Texture2D/Character Name"
 
 func _ready():
 	BattlefieldInfo.message_system = self
-	# test()
+	#test()
 
 func start(text_queue):
 	self.text_queue = parse(text_queue)
@@ -53,12 +53,12 @@ func _input(event):
 			if Input.is_action_just_pressed("ui_accept"):
 				# Stop moving the arrow and set the new position
 				if text_queue.size() == 0:
-					$"Dialogue Box Texture2D/Anim".stop(true)
+					$"DialogContainer/Dialogue Box Texture2D/Anim".stop(true)
 				
 				# Stop the scroll and set it to max visiblity
-				if $"Dialogue Box Texture2D/Dialogue Text/Dialogue Scroll".is_playing():
-					$"Dialogue Box Texture2D/Dialogue Text/Dialogue Scroll".stop(true)
-					$"Dialogue Box Texture2D/Dialogue Text".visible_ratio = 1
+				if $"DialogContainer/Dialogue Box Texture2D/Dialogue Text/Dialogue Scroll".is_playing():
+					$"DialogContainer/Dialogue Box Texture2D/Dialogue Text/Dialogue Scroll".stop(true)
+					$"DialogContainer/Dialogue Box Texture2D/Dialogue Text".visible_ratio = 1
 				
 				# Set to next
 				current_state = next
@@ -84,13 +84,13 @@ func _on_Dialogue_Scroll_animation_finished(anim_name):
 	current_state = next
 
 func turn_on():
-	$"Dialogue Box Texture2D".visible = true
+	$"DialogContainer/Dialogue Box Texture2D".visible = true
 
 func turn_off():
-	$"Dialogue Box Texture2D".visible = false
+	$"DialogContainer/Dialogue Box Texture2D".visible = false
 
 func set_position(new_position):
-	$"Dialogue Box Texture2D".position = new_position
+	$"DialogContainer/Dialogue Box Texture2D".position = new_position
 
 # Parse the text and store into an array
 func parse(text_line):
@@ -102,18 +102,19 @@ func parse(text_line):
 
 func next_line(text_line):
 	# Only 1 line = narrator
+	print(text_line.size())
 	if text_line.size() == 1:
 		# Set Text
-		$"Dialogue Box Texture2D/Dialogue Text".text = text_line[0]
-		
+		$"DialogContainer/Dialogue Box Texture2D/Dialogue Text".text = text_line[0]
+		print(text_line[0])
 		# Disable the portrait
 		portrait.visible = false
 		
 		# Set name to some default
-		char_name.text = " "
+		char_name.text = "???"
 	else:
 		# Set Text
-		$"Dialogue Box Texture2D/Dialogue Text".text = text_line[2]
+		$"DialogContainer/Dialogue Box Texture2D/Dialogue Text".text = text_line[2]
 		
 		# Set portrait
 		var n_portrait = load(str("res://",text_line[1]))
@@ -124,9 +125,9 @@ func next_line(text_line):
 		char_name.text = text_line[0]
 	
 	# Always  happens
-	$"Dialogue Box Texture2D/Dialogue Text".visible_ratio = 0
-	$"Dialogue Box Texture2D/Dialogue Text/Dialogue Scroll".play("Scroll")
-	$"Dialogue Box Texture2D/Anim".play("Up and Down")
+	$"DialogContainer/Dialogue Box Texture2D/Dialogue Text".visible_ratio = 0
+	$"DialogContainer/Dialogue Box Texture2D/Dialogue Text/Dialogue Scroll".play("Scroll")
+	$"DialogContainer/Dialogue Box Texture2D/Anim".play("Up and Down")
 
 ### Test ####
 func test():

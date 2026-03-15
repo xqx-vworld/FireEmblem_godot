@@ -1,4 +1,6 @@
 extends CanvasLayer
+#func _ready():
+	#start('章节一', '战争的受害者', "res://Scenes/Battlefield/Chapter 5.tscn", 0.5)
 
 func start(chapter_number, chapter_name, next_chapter_path, delay):
 	# Change Text
@@ -6,7 +8,7 @@ func start(chapter_number, chapter_name, next_chapter_path, delay):
 	$"Container/Chapter Name".text = chapter_name
 	
 	# Play Animation
-	$Container/Anim.play("Fade ")
+	$Container/Anim.play("Fade")
 
 	await $Container/Anim.animation_finished
 	
@@ -20,7 +22,7 @@ func start(chapter_number, chapter_name, next_chapter_path, delay):
 	get_node("/root/WorldMapScreen").visible = false
 	
 	# Fade Back
-	$Container/Anim.play_backwards("Fade ")
+	$Container/Anim.play_backwards("Fade")
 	await $Container/Anim.animation_finished
 	
 	# Set Camera

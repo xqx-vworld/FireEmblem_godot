@@ -25,9 +25,9 @@ func _init():
 	WorldMapScreen.get_node("Message System").set_position(Messaging_System.BOTTOM)
 	
 	# Place Fort and Castle
-	castle_waypoints_array.append(Vector2(-164, -94))
-	fort_waypoints_array.append(Vector2(-159, -129))
-	village_waypoints_array.append(Vector2(-118, -35))
+	castle_waypoints_array.append(Vector2(228, 172))
+	fort_waypoints_array.append(Vector2(233, 137))
+	village_waypoints_array.append(Vector2(274, 231))
 
 func run():
 	# Set Eirika's initial position
